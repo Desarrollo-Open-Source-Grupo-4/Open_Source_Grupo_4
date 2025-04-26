@@ -25,7 +25,7 @@ Convertirnos en la plataforma líder de turismo de naturaleza de lujo accesible 
 | Foto | Nombre | Código | Descripción |
 |------|--------|--------|-------------|
 | ![]() | Nombre: | Código: | Descripción: |
-| ![]() | Nombre: | Código: | Descripción: |
+| ![]() | Carlos Humberrto Zarate Peña | U202315966 | Soy un estudiante de Ingeniería de Software curioso y constante, disfruto resolver problemas, trabajar en equipo y aprender siempre algo nuevo sobre tecnología. |
 | ![Daniel Ruiz](https://github.com/Desarrollo-Open-Source-Grupo-4/Open_Source_Grupo_4/blob/main/images/cap1/Daniel.jpeg?raw=true) | Daniel Elias Ruiz Huisa | 202210764 | Soy un estudiante entusiaste que busca sacar el maximo provecho al aprendizaje. Adoro los videojuegos, la matematica oculta detras de los algoritmos y la musica. |
 | ![Juan Quijano](https://github.com/Desarrollo-Open-Source-Grupo-4/Open_Source_Grupo_4/blob/main/images/cap1/Juan.jpeg?raw=true) |Juan Miguel Quijano Calderón | u20221068|Mi nombre es Juan Quijano, tengo 20 años y soy un estudiante de la carrera de Ingeniería de Software. Tengo conocimientos intermedios en programación y quisiera dedicarme eventualmente al desarrollo y uso de IA. |
 | ![GabrielAlcantara](https://github.com/Desarrollo-Open-Source-Grupo-4/Open_Source_Grupo_4/blob/main/images/cap1/GabrielAlcantara.jpg?raw=true) | Poly Gabriel Alcantara Baldeon | U202418250 | Soy estudiante de Ingenieria de Software. Tengo conocimientos basicos en c#, Java y Python. Me gustaria aprender mas sobre desarrollo de videojuegos |
