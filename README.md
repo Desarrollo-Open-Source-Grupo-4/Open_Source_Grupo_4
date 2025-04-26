@@ -13,7 +13,7 @@
   Ciclo: 2025-01<br><br>
 
 # Curso: Desarrollo de Aplicaciones Open Source<br>
- ### Sección: 4380<br><br>
+ ### Sección: 4328<br><br>
 
   ### Informe del TB1<br>
   ### Startup: Oasis<br>
