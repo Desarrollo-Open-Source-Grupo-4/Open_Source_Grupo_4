@@ -26,9 +26,9 @@ Convertirnos en la plataforma líder de turismo de naturaleza de lujo accesible 
 |------|--------|--------|-------------|
 | ![]() | Nombre: | Código: | Descripción: |
 | ![]() | Nombre: | Código: | Descripción: |
-| ![Daniel Ruiz](images/cap1/Daniel.jpeg) | Daniel Elias Ruiz Huisa | 202210764 | Soy un estudiante entusiaste que busca sacar el maximo provecho al aprendizaje. Adoro los videojuegos, la matematica oculta detras de los algoritmos y la musica. |
-| ![Juan Quijano](images/cap1/Juan.jpeg) |Juan Miguel Quijano Calderón | u20221068|Mi nombre es Juan Quijano, tengo 20 años y soy un estudiante de la carrera de Ingeniería de Software. Tengo conocimientos intermedios en programación y quisiera dedicarme eventualmente al desarrollo y uso de IA. |
-| ![GabrielAlcantara](images/cap1/GabrielAlcantara.jpg) | Poly Gabriel Alcantara Baldeon | U202418250 | Soy estudiante de Ingenieria de Software. Tengo conocimientos basicos en c#, Java y Python. Me gustaria aprender mas sobre desarrollo de videojuegos |
+| ![Daniel Ruiz](https://github.com/Desarrollo-Open-Source-Grupo-4/Open_Source_Grupo_4/blob/main/images/cap1/Daniel.jpeg?raw=true) | Daniel Elias Ruiz Huisa | 202210764 | Soy un estudiante entusiaste que busca sacar el maximo provecho al aprendizaje. Adoro los videojuegos, la matematica oculta detras de los algoritmos y la musica. |
+| ![Juan Quijano](https://github.com/Desarrollo-Open-Source-Grupo-4/Open_Source_Grupo_4/blob/main/images/cap1/Juan.jpeg?raw=true) |Juan Miguel Quijano Calderón | u20221068|Mi nombre es Juan Quijano, tengo 20 años y soy un estudiante de la carrera de Ingeniería de Software. Tengo conocimientos intermedios en programación y quisiera dedicarme eventualmente al desarrollo y uso de IA. |
+| ![GabrielAlcantara](https://github.com/Desarrollo-Open-Source-Grupo-4/Open_Source_Grupo_4/blob/main/images/cap1/GabrielAlcantara.jpg?raw=true) | Poly Gabriel Alcantara Baldeon | U202418250 | Soy estudiante de Ingenieria de Software. Tengo conocimientos basicos en c#, Java y Python. Me gustaria aprender mas sobre desarrollo de videojuegos |
 
 ---
 
@@ -215,18 +215,18 @@ El objetivo del análisis competitivo es investigar y evaluar los principales co
 #### 2.2.2. Registro de entrevistas
 Entrevista #1 - Juan Calderón.
 -
-![1.](images/cap2/foto_entrevistas.png)
+![1.](https://github.com/Desarrollo-Open-Source-Grupo-4/Open_Source_Grupo_4/blob/main/images/cap2/foto_entrevistas.png?raw=true)
 https://drive.google.com/file/d/17AFZaJjcbcRVmYiHYgJDLiXQZu9t8cME/view?usp=sharing
 
 
 Entrevista #2 - Vero Rojas
 -
-![2.](images/cap2/foto_entrevistas2.png)
+![2.](https://github.com/Desarrollo-Open-Source-Grupo-4/Open_Source_Grupo_4/blob/main/images/cap2/foto_entrevistas2.png?raw=true)
 https://drive.google.com/file/d/17AFZaJjcbcRVmYiHYgJDLiXQZu9t8cME/view?usp=sharing
 
 Entrevista #3 César León
 -
-![3.](images/cap2/foto_entrevistas3.png)
+![3.](https://github.com/Desarrollo-Open-Source-Grupo-4/Open_Source_Grupo_4/blob/main/images/cap2/foto_entrevistas3.png?raw=true)
 https://drive.google.com/file/d/17AFZaJjcbcRVmYiHYgJDLiXQZu9t8cME/view?usp=sharing
 
 
@@ -249,8 +249,8 @@ https://drive.google.com/file/d/17AFZaJjcbcRVmYiHYgJDLiXQZu9t8cME/view?usp=shari
 
 Desarrollados a partir de las entrevistas.
 
-![4.](images/cap2/UserPersona_1.png)
-![5.](images/cap2/UserPersona_2.png)
+![4.](https://github.com/Desarrollo-Open-Source-Grupo-4/Open_Source_Grupo_4/blob/main/images/cap2/UserPersona_1.png?raw=true)
+![5.](https://github.com/Desarrollo-Open-Source-Grupo-4/Open_Source_Grupo_4/blob/main/images/cap2/UserPersona_2.png?raw=true)
 ---
 
 #### 2.3.2. User Task Matrix
@@ -268,11 +268,11 @@ Desarrollados a partir de las entrevistas.
 #### 2.3.3. User Journey Mapping
 
 Se construyeron mapas que detallan las etapas de experiencia de los usuarios al encontrar Oasis.
-![6.](images/cap2/Customer_Journey.png)
+![6.](https://github.com/Desarrollo-Open-Source-Grupo-4/Open_Source_Grupo_4/blob/main/images/cap2/Customer_Journey.png?raw=true)
 
 #### 2.3.4. Empathy Mapping
 
-![7.](images/cap2/EmpathyMap.png)
+![7.](https://github.com/Desarrollo-Open-Source-Grupo-4/Open_Source_Grupo_4/blob/main/images/cap2/EmpathyMap.png?raw=true)
 
 #### 2.3.5. As-is Scenario Mapping
 
