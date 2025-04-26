@@ -293,7 +293,7 @@ To-Be Scenario Mapping para usuario emprendedor que brinda servicios de hospedaj
 #### 3.2. User Stories. 
 
 | # Orden | User Story Id | Título | Descripción |Story Points (1 / 2 / 3 / 5 / 8) |
-|:-------:|:-------------:|:------:|:-----------:|:------------:|:-------------------------------:|
+|:-------:|:-------------:|:------:|:-----------:|:-------------------------------:|
 | 1 | US01 | Personalización Glamping | Como viajero joven que busca desconexión en la naturaleza quiero personalizar mi experiencia de glamping según mis gustos para sentir que el viaje es único y hecho a mi medida. | 5 |
 | 2 | US02 | Glamping Asequible | Como usuaria con presupuesto limitado quiero encontrar opciones de glamping asequibles fuera de los destinos típicos, para poder vivir una experiencia única sin gastar demasiado. | 5 |
 | 3 | US03 | Navegación Plataforma | Como usuario primerizo en la plataforma quiero navegar fácilmente por la plataforma y entender cada paso de la reserva, para sentirme seguro y confiado al hacer mi primera compra. | 3 |
