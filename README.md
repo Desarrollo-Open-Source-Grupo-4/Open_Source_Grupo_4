@@ -607,7 +607,7 @@ Se estima una capacidad de n Story Points para este sprint, tomando en cuenta la
  
  #### 5.2.1.5. Execution Evidence for Sprint Review.
 
- # Resumen de lo alcanzado en el Sprint 1
+Resumen de lo alcanzado en el Sprint 1
 
 1. **Implementación de la estructura principal de la Landing Page**  
    - Completado el header con barra de navegación responsive (TS01).  
