@@ -615,8 +615,8 @@ Explicaremos cómo realizar el despliegue de nuestra Landing Page utilizando el 
  
  | Repository | Branch | Commit Id | Commit <br>Message | Commit <br>Message Body | Commited <br>on (Date) |
 |:-------------:|:---------------:|:-------------:|:-------------:|:---------------:|:-------------:|
-| landing-page  | main | a4398b440f4935619dccd14ee2c75b8815409834 | Implementacion de la seccion principal | - | 26/04/2025 |
-| landing-page | main | de33ade90354d7ca9156ec92f80d2747d1335edc | Implementacion de la seccion destinos | -- | 26/04/2025 |
+| landing-page  | main | b67c724d45f0d781e6bb1641469472039df4fbd8 | Implementacion de la seccion principal | - | 26/04/2025 |
+| landing-page | main | a7b94cb034e8702cf93a94907a499156513275c2 | Implementacion de la seccion destinos | -- | 26/04/2025 |
 | landing-page | main | de33ade90354d7ca9156ec92f80d2747d1335edc | Implementacion de los estilos | -- | 26/04/2025 |
 | landing-page | main | de33ade90354d7ca9156ec92f80d2747d1335edc | Implementacion de las animaciones | -- | 26/04/2025 |
  
