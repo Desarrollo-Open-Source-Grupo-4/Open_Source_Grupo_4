@@ -292,7 +292,7 @@ To-Be Scenario Mapping para usuario emprendedor que brinda servicios de hospedaj
 
 #### 3.2. User Stories. 
 
-| # Orden | User Story Id | Título | Descripción | Acceptance Criteria | |Story Points (1 / 2 / 3 / 5 / 8) |
+| # Orden | User Story Id | Título | Descripción | Acceptance Criteria  |Story Points (1 / 2 / 3 / 5 / 8) |
 |:-------:|:-------------:|:------:|:-----------:|:-----------:|:-------------------------------:|
 | 1 | US01 | Personalización Glamping | Como viajero joven que busca desconexión en la naturaleza quiero personalizar mi experiencia de glamping según mis gustos para sentir que el viaje es único y hecho a mi medida. |**Escenario 1:**<br>**Given** que soy un viajero registrado,<br>**When** ingreso a mi perfil y configuro mis preferencias de viaje (tipo de entorno, actividades, nivel de confort),<br>**Then** las recomendaciones futuras de glamping se ajustan a mis gustos.<br><br>**Escenario 2:**<br>**Given** que estoy buscando experiencias,<br>**When** activo el filtro de "personalización",<br>**Then** solo se me muestran alojamientos que permiten personalizar servicios. | 5 |
 | 2 | US02 | Glamping Asequible | Como usuaria con presupuesto limitado quiero encontrar opciones de glamping asequibles fuera de los destinos típicos, para poder vivir una experiencia única sin gastar demasiado. | **Escenario 1:**<br>**Given** que estoy buscando destinos de glamping,<br>**When** activo el filtro de "precio bajo a alto",<br>**Then** los resultados se ordenan por precios accesibles, mostrando también destinos poco turísticos.<br><br>**Escenario 2:**<br>**Given** que tengo un presupuesto definido,<br>**When** aplico el filtro de presupuesto máximo,<br>**Then** solo se muestran opciones que se ajustan a dicho límite.| 5 |
