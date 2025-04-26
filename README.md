@@ -438,6 +438,10 @@ Características:<br>
 
 ![](images/cap4/Inicio.png)
 ![](images/cap4/IniciarSesión.png)
+![](images/cap4/Registrarse.png)
+![](images/cap4/Destinos.png)
+![](images/cap4/Eventos.png)
+![](images/cap4/Experiencias.png)
 
 
 ## Capítulo V: Product Implementation, Validation & Deployment
