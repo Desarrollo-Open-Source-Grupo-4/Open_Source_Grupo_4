@@ -556,15 +556,14 @@ Explicaremos cómo realizar el despliegue de nuestra Landing Page utilizando el 
 | **Date**              | 23/04/2025 |
 | **Time**              | 19:00 horas (GMT-5) |
 | **Location**          | Virtual (Google Meet) |
-| **Prepared By**       |  |
-| **Attendees (to planning meeting)** |     |
-| **Sprint 1 Review Summary** |  |
-| **Sprint 1 Retrospective Summary** | |
+| **Prepared By**       | Juan Miguel Quijano Calderon |
+| **Attendees (to planning meeting)** | Daniel Elias Ruiz Huisa, Carlos Humberto Zarate Peña, Jhon Rony Huamani Aguilar, Poly Gabriel Alcantara Baldeon    |
+| **Sprint 1 Review Summary** | Durante el Sprint 1 se implementó la versión inicial de la landing page. Se completó el diseño básico. Se hizo una demo funcional. El formulario inicial de registro quedó pendiente para el próximo sprint. |
+| **Sprint 1 Retrospective Summary** | El equipo no logro una colaboración adecuada y no se estimó adecuadamente los tiempos para una entrega adecuada. Se destacó la fluidez en la integración y el despliegue. Se acordó validar los diseños al inicio del sprint y mejorar la estimación de tareas de animación así como agregar los elementos faltantes. |
 | **Sprint Goal & User Stories** |          |
 | **Sprint 1 Goal**     | Completar las principales secciones de la Landing Page de la aplicación , permitiendo a los usuarios explorar y familiarizarse con la plataforma. |
-| **Sprint 1 Velocity** | **8**  
-Se estima una capacidad de n Story Points para este sprint, tomando en cuenta las tareas relacionadas con el desarrollo de la Landing Page. |
-| **Sum of Story Points** | n |
+| **Sprint 1 Velocity** | **26**  
+| **Sum of Story Points** | 26 |
 
 #### 5.2.1.2. Aspect Leaders and Collaborators.
 
@@ -589,7 +588,7 @@ Se estima una capacidad de n Story Points para este sprint, tomando en cuenta la
 |--------------|------------------------------------------|---------|-------------------------------|--------------------------------------------------------------------|------------------------|-----------------------------------|------------|
  | US01 | Barra de navegación en la Landing Page | TS01 |Barra de navegación en la Landing Page (Desarrollado en HTML, CSS y JS).| Implementación del header y la barra de navegación, desarrollados en HTML, CSS y JS con diseño responsive. | 8      |  | Done     |
  | US01 | 	Sección de beneficios de la Aplicación   | TS02 | Sección de beneficios (Desarrollado en HTML, CSS y JS).|Desarrollar una sección que destaque los beneficios clave de RideFind utilizando HTML, CSS, y componentes reutilizables con diseño responsive. | 6                |  | Done                                   |
- | US01 | Información sobre Nosotros           | TS03 | Sección de "Acerca de" (Desarrollado en HTML, CSS y JS).| Implementar la sección "Sobre Nosotros", mostrando información clave de la empresa con diseño responsive y optimización para dispositivos móviles y tablets. | 4                 |    | Done                                   |
+ | US01 | Información sobre Nosotros           | TS03 | Sección de "Acerca de" (Desarrollado en HTML, CSS y JS).| Implementar la sección "Sobre Nosotros", mostrando información clave de la empresa con diseño responsive  | 4                 |    | Done                                   |
  | US01 | Redes Sociales y Footer | TS04 | Redes Sociales y Footer (Desarrollado en HTML, CSS y JS).| Crear un footer con enlaces a redes sociales, optimizado para diferentes resoluciones de pantalla, asegurando su visibilidad en todo tipo de dispositivos.| 4 |  | Done
  | US01 | Sección de contacto | TS04 | Sección de contacto (Desarrollado en HTML, CSS y JS).| Implementar una sección de contacto con un formulario básico, validación de datos, y diseño responsive para garantizar su correcto funcionamiento en móviles.| 4 |  | Done
 
