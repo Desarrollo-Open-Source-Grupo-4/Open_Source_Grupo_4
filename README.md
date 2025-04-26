@@ -443,6 +443,8 @@ Características:<br>
 ![](images/cap4/Eventos.png)
 ![](images/cap4/Experiencias.png)
 
+### 4.3.2. Landing Page Mock-up
+
 
 ## Capítulo V: Product Implementation, Validation & Deployment
 ### 5.1. Software Configuration Management.
