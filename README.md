@@ -565,6 +565,76 @@ Características:<br>
 ![](images/cap4/Experiencias-Color.png)
 
 
+### 4.7.2 Class dictionary
+
+## Class Dictionary - Proyecto Oasis
+
+### OAS_Usuarios
+| Atributo         | Descripción                         |
+|------------------|-------------------------------------|
+| usu_id           | ID único del usuario                |
+| usu_nombre       | Nombre del usuario                  |
+| usu_apellido     | Apellido del usuario                |
+| usu_email        | Correo electrónico único            |
+| usu_contrasena   | Contraseña cifrada del usuario       |
+| usu_rol          | Rol del usuario (turista, anfitrión, administrador) |
+| usu_fecha_registro | Fecha de registro en la plataforma |
+
+### OAS_Lugares
+| Atributo            | Descripción                        |
+|---------------------|------------------------------------|
+| lug_id              | ID único del lugar                 |
+| lug_nombre          | Nombre del lugar                   |
+| lug_descripcion     | Descripción detallada              |
+| lug_ubicacion       | Dirección o referencia geográfica  |
+| lug_tipo            | Tipo de glamping (domo, yurta, cabaña, etc.) |
+| lug_precio_por_noche| Precio por noche                   |
+| lug_capacidad       | Capacidad de personas              |
+| lug_disponible      | Estado de disponibilidad           |
+| lug_usuario_id      | ID del usuario que publicó el lugar |
+| lug_fecha_publicacion | Fecha de publicación             |
+
+### OAS_Accesibilidad
+| Atributo         | Descripción                         |
+|------------------|-------------------------------------|
+| acc_id           | ID único del servicio de accesibilidad |
+| acc_nombre       | Nombre del servicio (ej: rampa de acceso) |
+| acc_descripcion  | Descripción del servicio            |
+
+### OAS_Lugar_Accesibilidad
+| Atributo         | Descripción                         |
+|------------------|-------------------------------------|
+| lug_id           | ID del lugar asociado               |
+| acc_id           | ID del servicio de accesibilidad asociado |
+
+### OAS_Reservas
+| Atributo         | Descripción                         |
+|------------------|-------------------------------------|
+| res_id           | ID único de la reserva              |
+| usu_id           | ID del usuario que realizó la reserva |
+| lug_id           | ID del lugar reservado              |
+| res_fecha_inicio | Fecha de inicio de la reserva       |
+| res_fecha_fin    | Fecha de fin de la reserva          |
+| res_costo_total  | Costo total de la reserva           |
+| res_estado       | Estado actual de la reserva (pendiente, confirmada, cancelada, completada) |
+
+### OAS_Experiencias
+| Atributo         | Descripción                         |
+|------------------|-------------------------------------|
+| exp_id           | ID único de la experiencia          |
+| usu_id           | ID del usuario que deja la reseña   |
+| lug_id           | ID del lugar reseñado               |
+| exp_comentario   | Comentario del usuario              |
+| exp_puntaje      | Puntaje otorgado (1 a 5)            |
+| exp_fecha        | Fecha de la reseña                  |
+
+## 4.8 Database Desing
+Se creó un diseño preeliminar de la base de datos a utilizar
+
+### 4.8.1 Database Diagram
+
+![dbDiagram](https://github.com/Desarrollo-Open-Source-Grupo-4/Open_Source_Grupo_4/blob/main/images/cap4/DB_Diagram.png?raw=true)
+
 ## Capítulo V: Product Implementation, Validation & Deployment
 ### 5.1. Software Configuration Management.
 #### 5.1.1. Software Development Environment Configuration.
