@@ -564,6 +564,77 @@ Características:<br>
 ![](images/cap4/Eventos-Color.png)
 ![](images/cap4/Experiencias-Color.png)
 
+### 4.6 Domain-Driven Software Architecture
+
+La arquitectura de software orientada al dominio proporciona una imagen de lo que se quiere en la estructura de software de nuestro producto.
+Tal imagen refleja lo que nosotros, Finzar, planteamos para SmartFinance: identificar las funcionalidades de la solución y cómo se van a estructurar adaptándose a los elementos a usar.
+
+### 4.6.1 Software Architecture Context Diagram
+
+Los elementos presentes son:
+Visitor (Visitante): Visualiza el landing page.
+Customer (Cliente): Accede a la aplicación web.
+Administrator (Administrador): Accede a la aplicación web y supervisa su funcionamiento.
+Oasis: Software que los usuarios utilizarán.
+
+### 4.6.2  Software Architecture Container Diagrams
+
+Los elementos presentes son:
+
+Landing Page: Página que presenta el producto.
+Web App: Frontend donde los usuarios interactúan con la aplicación.
+API: Conexión entre el frontend y backend.
+Bounded Contexts: Las funcionalidades que el sistema proporciona a los usuarios.
+README.md 2024-11-22
+71 / 186
+Bases de datos: Almacenará datos como cuentas, billeteras, presupuestos, transacciones, entre otros. 
+
+### 4.6.3. Software Architecture Components Diagrams
+Bounded Context Account Management
+Los elementos presentes son:
+Controller: Controla un conjunto de funcionalidades.
+Service: Partes de la aplicación que realizan una o varias tareas específicas.
+Repository: Permite el acceso a una base de datos. 
+
+
+
+**Bounded Context User Wallets**
+Los elementos presentes son:
+Controller: Controla un conjunto de funcionalidades.
+Services: Partes de la aplicación que realizan una o varias tareas específicas.
+Repository: Permite el acceso a una base de datos. 
+
+
+
+**Bounded Context Transactions and Flows**
+Los elementos presentes son:
+Controllers: Controla un conjunto de funcionalidades.
+Services: Partes de la aplicación que realizan una o varias tareas específicas.
+Repositories: Permite el acceso a una base de datos. 
+
+
+
+**Bounded Context Wallet Savings**
+Los elementos presentes son:
+Controller: Controla un conjunto de funcionalidades.
+Service: Partes de la aplicación que realizan una o varias tareas específicas.
+Repository: Permite el acceso a una base de datos. 
+
+
+
+**Bounded Context Wallets & Savings Graphics Providing**
+Los elementos presentes son:
+Controller: Controla un conjunto de funcionalidades.
+Service: Partes de la aplicación que realizan una o varias tareas específicas.
+Repository: Permite el acceso a una base de datos.
+Context Facade: Proporciona una interface en la cual se puede acceder a los servicios del bounded context. 
+
+
+
+## 4.7. Software Object-Oriented Design
+El diseño orientado a objetos del software será esencial para nuestro proyecto. Estructuramos nuestro software de acuerdo a nuestras reglas de
+negocio para poder crear componentes que puedan ser entendibles para su desarrollo en un sistema real, y sean fáciles de modificar para
+nosotros.
 
 ### 4.7.2 Class dictionary
 
