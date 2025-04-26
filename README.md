@@ -606,6 +606,27 @@ Se estima una capacidad de n Story Points para este sprint, tomando en cuenta la
 |  | | de33ade90354d7ca9156ec92f80d2747d1335edc |  | -- | 25/04/2025 |
  
  #### 5.2.1.5. Execution Evidence for Sprint Review.
+
+ # Resumen de lo alcanzado en el Sprint 1
+
+1. **Implementación de la estructura principal de la Landing Page**  
+   - Completado el header con barra de navegación responsive (TS01).  
+   - Desarrollado el footer con enlaces a redes sociales (TS04).
+
+2. **Desarrollo de secciones informativas clave**  
+   - Creada la sección de beneficios de la aplicación con componentes reutilizables (TS02).  
+   - Implementada la sección “Acerca de Nosotros”, optimizada para móviles y tablets (TS03).
+
+3. **Funcionalidad de formulario de contacto**  
+   - Añadido un formulario de contacto con validación de datos y diseño responsive (TS04).
+
+4. **Calidad y diseño responsive**  
+   - Todas las tareas entregadas con diseño responsive, probadas en múltiples resoluciones.  
+   - Utilización de HTML, CSS y JavaScript puro, estableciendo la base para futuras mejoras.
+
+5. **Cumplimiento de estimaciones y colaboración**  
+   - Las 5 tareas planificadas se completaron dentro del Sprint.  
+   - El equipo colaboró eficazmente, respetando roles de líderes y colaboradores.
  
  #### 5.2.1.6. Services Documentation Evidence for Sprint Review.
  
