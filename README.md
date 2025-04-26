@@ -447,6 +447,13 @@ Características:<br>
 
 ### 4.3.2. Landing Page Mock-up
 
+![](images/cap4/Inicio-Color.png)
+![](images/cap4/IniciarSesión-Color.png)
+![](images/cap4/Registrarse-Color.png)
+![](images/cap4/Destinos-Color.png)
+![](images/cap4/Eventos-Color.png)
+![](images/cap4/Experiencias-Color.png)
+
 
 ## Capítulo V: Product Implementation, Validation & Deployment
 ### 5.1. Software Configuration Management.
