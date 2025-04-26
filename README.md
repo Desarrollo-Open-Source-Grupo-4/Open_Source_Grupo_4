@@ -671,7 +671,9 @@ Resumen de lo alcanzado en el Sprint 1
    - El equipo colaboró eficazmente, respetando roles de líderes y colaboradores.
  
  El Equipo ha logrado desplegar la Landing Page Con exito
- [img landing]
+ ![landing1.](https://github.com/Desarrollo-Open-Source-Grupo-4/Open_Source_Grupo_4/blob/main/images/cap5/landing1.png?raw=true)
+  ![landing2.](https://github.com/Desarrollo-Open-Source-Grupo-4/Open_Source_Grupo_4/blob/main/images/cap5/landing2.png?raw=true)
+    ![landing3.](https://github.com/Desarrollo-Open-Source-Grupo-4/Open_Source_Grupo_4/blob/main/images/cap5/landing3.png?raw=true)
 
  #### 5.2.1.6. Services Documentation Evidence for Sprint Review.
  ## User Stories relacionadas a Servicios
