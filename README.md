@@ -619,6 +619,7 @@ Explicaremos cómo realizar el despliegue de nuestra Landing Page utilizando el 
 | landing-page | main | a7b94cb034e8702cf93a94907a499156513275c2 | Implementacion de la seccion destinos | -- | 26/04/2025 |
 | landing-page | main | de33ade90354d7ca9156ec92f80d2747d1335edc | Implementacion de los estilos | -- | 26/04/2025 |
 | landing-page | main | de33ade90354d7ca9156ec92f80d2747d1335edc | Implementacion de las animaciones | -- | 26/04/2025 |
+| landing-page | main | 8e4d4fd | Implementacion de las animaciones | -- | 26/04/2025 |
  
 **Commits realizados al Landing Page**
 
