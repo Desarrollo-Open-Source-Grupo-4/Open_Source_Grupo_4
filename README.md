@@ -1,4 +1,4 @@
-# Open_Source_Grupo_4## Capítulo I
+## Capítulo I
 
 ### 1.1. Startup Profile
 
