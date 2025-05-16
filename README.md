@@ -400,22 +400,22 @@ Con el fin de diseñar una experiencia de usuario alineada con las necesidades r
 Descripción:
 Persona que busca experiencias diferentes a las tradicionales, interesada en la naturaleza, lo local y lo auténtico. Suele priorizar el destino y el entorno por encima del lujo convencional. No necesariamente tiene experiencia previa con glamping.
 
-Necesidades principales:
--Encontrar lugares únicos, poco conocidos.
--Comparar precios accesibles y experiencias ofrecidas.
--Leer reseñas auténticas y ver imágenes reales.
--Reservar de forma rápida y sencilla.
+Necesidades principales: 
+- Encontrar lugares únicos, poco conocidos.
+- Comparar precios accesibles y experiencias ofrecidas.
+- Leer reseñas auténticas y ver imágenes reales.
+- Reservar de forma rápida y sencilla.
 
 2. Anfitrión local
 Descripción:
 Persona o pequeña empresa que ofrece un espacio natural adaptado para glamping (por ejemplo, una cabaña ecológica, una tienda tipo safari, domo, etc.). No necesariamente tiene experiencia en plataformas digitales, pero busca generar ingresos adicionales compartiendo su propiedad.
 
 Necesidades principales:
--Publicar su alojamiento de forma sencilla.
--Establecer precios y reglas claras.
--Gestionar reservas y disponibilidad.
--Comunicarse fácilmente con los viajeros.
--Recibir pagos de forma segura y confiable.
+- Publicar su alojamiento de forma sencilla.
+- Establecer precios y reglas claras.
+- Gestionar reservas y disponibilidad.
+- Comunicarse fácilmente con los viajeros.
+- Recibir pagos de forma segura y confiable.
 
 
 | **Tarea**                             | **Frecuencia** | **Importancia** |
