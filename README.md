@@ -1122,7 +1122,9 @@ implementación y despliegue de la landing page fue llevado a cabo principalment
  Esta sección presenta un resumen estructurado del Sprint 2, cuyo objetivo principal fue avanzar en la construcción de una versión inicial funcional del Front-End de la aplicación web, centrada en permitir a los usuarios visualizar alojamientos de glamping según filtros básicos como ubicación, precio y tipo de experiencia.
 Se detallan a continuación las metas propuestas para este sprint, las funcionalidades clave a implementar y la distribución de tareas asignadas al equipo. Además, se incluye un screenshot del tablero Trello utilizado como herramienta de gestión y control del trabajo, junto con el enlace público para su consulta.
 Este es el link de invitacion a nuestro trello: https://trello.com/invite/b/6826efd999f9b10cfcad7a8c/ATTI9372e13170f62c39e7c4d6e33d215b5aBF230016/1asi0729-2510-4328-grupo-4 
+
 ![Captura de pantalla 2025-05-16 043419](https://github.com/user-attachments/assets/c098e2a2-e3b8-4abc-8890-1cbff2dd5d2d)
+
 
 
 | **Sprint #** | **Sprint 2** |
@@ -1151,6 +1153,15 @@ Este es el link de invitacion a nuestro trello: https://trello.com/invite/b/6826
  | US06 | Visualizar catálogo de servicios | TS17 | Diseñar filtro básico por tipo de servicio |Ejemplo: guiado, alimentación, actividades, hospedaje.  | 0.2  | Done
 
  #### 5.2.2.4. Development Evidence for Sprint Review.
+
+ 
+  | Repository | Branch | Commit Id | Commit <br>Message | Commit <br>Message Body | Commited <br>on (Date) |
+|:-------------:|:---------------:|:-------------:|:-------------:|:---------------:|:-------------:|
+| landing-page | main | b67c724d45f0d781e6bb1641469472039df4fbd8 |   |  No description provided | 16/05/2025 |
+| landing-page | main | a7b94cb034e8702cf93a94907a499156513275c2 |   |  No description provided | 16/05/2025 |
+| landing-page | main | de33ade90354d7ca9156ec92f80d2747d1335edc |   |  No description provided | 16/05/2025 |
+| landing-page | main | de33ade90354d7ca9156ec92f80d2747d1335edc |   |  No description provided | 16/05/2025 |
+| landing-page | main | 8e4d4fd                                  |   |  No description provided | 16/05/2025 |
  
  #### 5.2.2.5. Execution Evidence for Sprint Review.
 
