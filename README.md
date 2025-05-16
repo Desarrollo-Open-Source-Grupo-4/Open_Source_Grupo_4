@@ -1106,14 +1106,15 @@ implementación y despliegue de la landing page fue llevado a cabo principalment
  #### 5.2.2.1. Sprint Planning 2.
  
  #### 5.2.2.2. Aspect Leaders and Collaborators.
+ Durante el Sprint 2, el equipo se enfocó en la implementación de una primera versión funcional del front-end de la plataforma web de glamping Oasis. Con el objetivo de organizar y distribuir eficientemente el trabajo, se identificaron los principales aspectos o componentes abordados en el sprint, asignando a cada uno un líder responsable de su desarrollo y colaboradores de apoyo. Esta asignación permite asegurar tanto la calidad del entregable como la colaboración efectiva entre los integrantes del equipo.
+ 
+| Team Member (Last Name, First Name) | GitHub Username | US03 – Buscar alojamientos glamping (L/C) | US05 – Publicar alojamiento (L/C) | US06 – Visualizar catálogo de servicios (L/C) |
+| ----------------------------------- | --------------- | ----------------------------------------- | --------------------------------- | --------------------------------------------- |
+| Daniel Elias Ruiz Huisa             | DanRuizPeru     | **L**                                     | C                                 | C                                             |
+| Carlos Humberto Zarate Peña         | U202315966      | C                                         | **L**                             | C                                             |
+| Jhon Rony Huamani Aguilar           | JhonHuam        | C                                         | C                                 | **L**                                         |
+| Poly Gabriel Alcantara Baldeon      | GabrielAlba24   | C                                         | C                                 | C                                             |
 
- | Team Member (Last Name, First Name) | GitHub Username   | Navigation Bar Leader (L) / Collaborator (C) | Benefits Section Leader (L) / Collaborator (C) | About Us Section Leader (L) / Collaborator (C) | Social Media & Footer Leader (L) / Collaborator (C) | Contact Section Leader (L) / Collaborator (C) |
-|-------------------------------------|-------------------|----------------------------------------------|------------------------------------------------|-------------------------------------------------|------------------------------------------------------|-----------------------------------------------|
-| Daniel Elias Ruiz Huisa         | DanRuizPeru       | L                     | C                     | C                     | L                     | C                     |
-| Carlos Humberto Zarate Peña     | U202315966        | C                     | L                     | C                     | C                     | L                     |
-| Jhon Rony Huamani Aguilar       | JhonHuam          | C                     | C                     | L                     | C                     | C                     |
-| Juan Miguel Quijano Calderon    | JuanqQuijano      | C                     | C                     | C                     | L                     | C                     |
-| Poly Gabriel Alcantara Baldeon  | GabrielAlba24     | C                     | L                     | C                     | C                     | L                     |
  
  #### 5.2.2.3. Sprint Backlog 2.
 
