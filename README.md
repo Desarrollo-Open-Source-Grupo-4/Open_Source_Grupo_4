@@ -1170,6 +1170,16 @@ En esta entrega no se realizaron cambios significativos en la landing page. Se h
 
 
  #### 5.2.2.6. Services Documentation Evidence for Sprint Review.
+ 
+ Durante el Sprint 2, el equipo trabajó en la estructuración inicial de los servicios clave que sustentan las funcionalidades centrales de la plataforma Oasis, en su versión web. 
+  Los servicios abordados en este sprint se enfocaron en:
+  - Búsqueda de alojamientos
+  - Publicación de alojamientos
+  - Visualización de catálogo de servicios turísticos.
+
+![Captura de pantalla 2025-05-16 050117](https://github.com/user-attachments/assets/0be9b268-7c2a-4ed5-9770-8368c4076fcf)
+
+Acceso al repositorio: https://github.com/Desarrollo-Open-Source-Grupo-4/Oasis-Site/tree/prod 
 
  #### 5.2.2.7. Software Deployment Evidence for Sprint Review.
 
