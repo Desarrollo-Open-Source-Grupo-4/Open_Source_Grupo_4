@@ -59,9 +59,6 @@
     - [2.2. Entrevistas](#22-entrevistas)
       - [2.2.1. Diseño de entrevistas](#221-diseño-de-entrevistas)
       - [2.2.2. Registro de entrevistas](#222-registro-de-entrevistas)
-  - [Entrevista #1 - Juan Calderón.](#entrevista-1---juan-calderón)
-  - [Entrevista #2 - Vero Rojas](#entrevista-2---vero-rojas)
-  - [Entrevista #3 César León](#entrevista-3-césar-león)
       - [2.2.3. Análisis de entrevistas](#223-análisis-de-entrevistas)
     - [2.3. Needfinding](#23-needfinding)
       - [2.3.1. User Personas](#231-user-personas)
@@ -89,6 +86,21 @@
   - [4.3. Landing Page UI Design](#43-landing-page-ui-design)
     - [4.3.1. Landing Page Wireframe](#431-landing-page-wireframe)
     - [4.3.2. Landing Page Mock-up](#432-landing-page-mock-up)
+    - [4.6 Domain-Driven Software Architecture](#46-domain-driven-software-architecture)
+    - [4.6.1 Software Architecture Context Diagram](#461-software-architecture-context-diagram)
+    - [4.6.2  Software Architecture Container Diagrams](#462--software-architecture-container-diagrams)
+    - [4.6.3. Software Architecture Components Diagrams](#463-software-architecture-components-diagrams)
+  - [4.7. Software Object-Oriented Design](#47-software-object-oriented-design)
+    - [4.7.2 Class dictionary](#472-class-dictionary)
+  - [Class Dictionary - Proyecto Oasis](#class-dictionary---proyecto-oasis)
+    - [OAS\_Usuarios](#oas_usuarios)
+    - [OAS\_Lugares](#oas_lugares)
+    - [OAS\_Accesibilidad](#oas_accesibilidad)
+    - [OAS\_Lugar\_Accesibilidad](#oas_lugar_accesibilidad)
+    - [OAS\_Reservas](#oas_reservas)
+    - [OAS\_Experiencias](#oas_experiencias)
+  - [4.8 Database Desing](#48-database-desing)
+    - [4.8.1 Database Diagram](#481-database-diagram)
   - [Capítulo V: Product Implementation, Validation \& Deployment](#capítulo-v-product-implementation-validation--deployment)
     - [5.1. Software Configuration Management.](#51-software-configuration-management)
       - [5.1.1. Software Development Environment Configuration.](#511-software-development-environment-configuration)
@@ -106,6 +118,8 @@
   - [User Stories relacionadas a Servicios](#user-stories-relacionadas-a-servicios)
       - [5.2.1.7. Software Deployment Evidence for Sprint Review.](#5217-software-deployment-evidence-for-sprint-review)
       - [5.2.1.8. Team Collaboration Insights during Sprint.](#5218-team-collaboration-insights-during-sprint)
+
+---
 
 ## Capítulo I
 
@@ -272,16 +286,65 @@ Desarrollar un MVP funcional de la plataforma con 3 ubicaciones de prueba, opci�
 
 ### 1.3. Segmentos objetivo
 
-**Perfil 1: Jóvenes adultos (25-35 años)**
-- Estilo de vida: Aventureros, tech-savvy, buscan experiencias auténticas pero con comodidad.
-- Motivaciones: Escapadas de fin de semana, turismo interno, contacto con la naturaleza sin perder el confort.
-- Comportamiento digital: Usan apps/webs para planificar viajes, confían en reseñas, valoran la personalización.
-- Presupuesto: Medio, pero buscan optimizar valor por su dinero.
+**Perfil 1: Exploradores modernos**
+**Descripción general:**
+Se trata de jóvenes adultos (25-40 años), parejas y nómadas digitales que comparten un estilo de vida activo, curioso y conectado. Buscan escapadas auténticas y memorables, combinando naturaleza, cultura local y comodidad, sin desconectarse por completo del mundo digital.
 
-**Perfil 2: Parejas y nómadas digitales**
-- Estilo de vida: Buscan lugares tranquilos, románticos o inspiradores.
-- Motivaciones: Desconexión, relax, celebraciones, trabajar remotamente desde lugares diferentes.
-- Comportamiento digital: Valoran privacidad, vistas únicas, buenas fotos y conexión a internet.
+**Estilo de vida:**
+
+- Aventureros pero exigentes con el confort.
+
+- Interesados en experiencias únicas, inspiradoras o románticas.
+
+- Amantes de la naturaleza, la cultura y las actividades locales, sin sacrificar comodidades como buena conexión a internet o privacidad.
+
+- Algunos trabajan de forma remota, otros viajan para desconectarse temporalmente.
+
+**Motivaciones principales:**
+
+- Escapadas de fin de semana o estadías largas para trabajar remotamente.
+
+- Conexión con la naturaleza y cultura local.
+
+- Relajación, celebraciones, inspiración personal o laboral.
+
+- Buscan equilibrio entre autenticidad, confort y conectividad.
+
+**Comportamiento digital:**
+
+- Planifican todo por apps o sitios web.
+
+- Confían en reseñas y contenido visual de calidad (fotos, videos).
+
+- Valoran opciones personalizadas, privacidad y buenas vistas.
+
+- Sensibles al valor por dinero, comparan opciones antes de decidir.
+
+**Presupuesto:**
+
+- Medio, pero dispuesto a invertir más por experiencias significativas, personalizadas o con valor agregado.
+
+**Perfil 2:Emprendedores rurales y proveedores de experiencias locales**
+**Perfil:**
+Son pequeños emprendedores y negocios locales del ámbito rural que ofrecen servicios y productos auténticos, enraizados en la cultura peruana. Su participación en la app les permite llegar a nuevos públicos y generar ingresos sostenibles.
+
+**Ejemplos de aliados:**
+
+- Restaurantes criollos, productores locales, cocinas caseras.
+
+- Guías turísticos, caminatas, cabalgatas, talleres artesanales.
+
+- Aguas termales, hospedajes familiares, actividades ancestrales.
+
+- Centros de bienestar rural (masajes, baños de florecimiento, etc.).
+
+**Motivación y valor para la app:**
+
+- Desean promocionar sus servicios sin intermediarios costosos.
+
+- Aportan autenticidad, identidad cultural y contacto directo con lo local.
+
+- Su inclusión fortalece la propuesta de turismo sostenible, colaborativo y culturalmente inmersivo.
 
 
 ## Capítulo II: Requirements Elicitation & Analysis
@@ -379,6 +442,7 @@ https://drive.google.com/file/d/17AFZaJjcbcRVmYiHYgJDLiXQZu9t8cME/view?usp=shari
 
 -Dos de tres solo habían pensado en reservar por medio de contactos cercanos.
 
+---
 
 ### 2.3. Needfinding
 
@@ -460,6 +524,8 @@ Las etapas consideradas en este recorrido de usuario son:
 | **Thinking**           | “Quiero algo diferente, tranquilo, en contacto con la naturaleza.” <br> “No sé dónde buscar glamping real, no solo cabañas bonitas.”                         | “Hay muchas páginas, pero ninguna parece especializada en esto.” <br> “¿Cómo sé si este lugar es seguro, ecológico o accesible?”            | “¿Este perfil será confiable? ¿Y si no es lo que muestran las fotos?” <br> “Tengo que revisar muchas plataformas para estar seguro.”        | “Ojalá existiera una sola plataforma donde todo esté verificado y adaptado al estilo glamping que busco.”                                  |
 | **Feeling**            | - Curiosidad por vivir una experiencia nueva y natural. <br> - Confusión por la falta de información centralizada.                                        | - Frustración al comparar muchas opciones sin claridad. <br> - Inseguridad respecto a las condiciones reales de los espacios.               | - Ansiedad al no saber si la reserva fue segura. <br> - Cansancio por la cantidad de pasos involucrados en el proceso.                     | - Deseo de compartir su experiencia, pero sin un canal o comunidad específica. <br> - Esperanza de que una futura app simplifique todo.     |
 
+---
+
 ## Capítulo III: Requirements Elicitation Specification
 #### 3.1. To-Be Scenario Mapping
 To-Be Scenario Mapping para usuario que reserva
@@ -468,25 +534,44 @@ To-Be Scenario Mapping para usuario que reserva
 To-Be Scenario Mapping para usuario emprendedor que brinda servicios de hospedaje
 ![To-Be Scenario Map para el emprendedor rural](https://github.com/user-attachments/assets/d591716f-0f91-4415-ac2c-6ee025a00ed8)
 
+---
+
 #### 3.2. User Stories. 
 
-| # Orden | User Story Id | Título | Descripción | Acceptance Criteria  |Story Points (1 / 2 / 3 / 5 / 8) |
-|:-------:|:-------------:|:------:|:-----------:|:-----------:|:-------------------------------:|
-| 1 | US01 | Personalización Glamping | Como viajero joven que busca desconexión en la naturaleza quiero personalizar mi experiencia de glamping según mis gustos para sentir que el viaje es único y hecho a mi medida. |**Escenario 1:**<br>**Given** que soy un viajero registrado,<br>**When** ingreso a mi perfil y configuro mis preferencias de viaje (tipo de entorno, actividades, nivel de confort),<br>**Then** las recomendaciones futuras de glamping se ajustan a mis gustos.<br><br>**Escenario 2:**<br>**Given** que estoy buscando experiencias,<br>**When** activo el filtro de "personalización",<br>**Then** solo se me muestran alojamientos que permiten personalizar servicios. | 5 |
-| 2 | US02 | Glamping Asequible | Como usuaria con presupuesto limitado quiero encontrar opciones de glamping asequibles fuera de los destinos típicos, para poder vivir una experiencia única sin gastar demasiado. | **Escenario 1:**<br>**Given** que estoy buscando destinos de glamping,<br>**When** activo el filtro de "precio bajo a alto",<br>**Then** los resultados se ordenan por precios accesibles, mostrando también destinos poco turísticos.<br><br>**Escenario 2:**<br>**Given** que tengo un presupuesto definido,<br>**When** aplico el filtro de presupuesto máximo,<br>**Then** solo se muestran opciones que se ajustan a dicho límite.| 5 |
-| 3 | US03 | Navegación Plataforma | Como usuario primerizo en la plataforma quiero navegar fácilmente por la plataforma y entender cada paso de la reserva, para sentirme seguro y confiado al hacer mi primera compra. |**Escenario 1:**<br>**Given** que soy un nuevo usuario,<br>**When** ingreso a la plataforma,<br>**Then** veo un tutorial o guía paso a paso para realizar una reserva.<br><br>**Escenario 2:**<br>**Given** que quiero hacer una reserva,<br>**When** navego por las distintas etapas del proceso,<br>**Then** recibo indicaciones claras y botones visibles que me guían sin confusión.| 3 |
-| 4 | US04 | Filtros de Escapadas | Como viajero que quiere escapar un fin de semana quiero poder filtrar experiencias según fechas disponibles y distancia desde mi ubicación, para planear escapadas cortas sin complicaciones.| **Escenario 1:**<br>**Given** que quiero planear un viaje corto,<br>**When** selecciono fechas y distancia desde mi ubicación actual,<br>**Then** veo experiencias disponibles que coinciden con los filtros aplicados.<br><br>**Escenario 2:**<br>**Given** que no tengo fechas fijas,<br>**When** activo el filtro de "próximo fin de semana disponible",<br>**Then** me muestra las experiencias con mayor disponibilidad en esa fecha.| 5 |
-| 5 | US05 | Reseñas y Calificaciones | Como usuario que desconfía de nuevas plataformas quiero ver reseñas y calificaciones de otros viajeros sobre cada experiencia, para tomar decisiones con mayor confianza. |**Escenario 1:**<br>**Given** que soy un usuario registrado que ha completado una reserva,<br>**When** accedo al detalle del alojamiento reservado,<br>**Then** puedo ver y escribir una reseña con calificación del 1 al 5 y un comentario.<br><br>**Escenario 2:**<br>**Given** que soy un usuario navegando por un alojamiento,<br>**When** visualizo la sección de reseñas,<br>**Then** veo la calificación promedio, el número de reseñas y una lista de comentarios de otros usuarios.| 3 |
-| 6 | US06 | Fotos Reales | Como cliente que busca confort y naturaleza quiero ver fotos reales del alojamiento, sus servicios y el entorno, para tener expectativas claras de lo que voy a recibir. |**Escenario 1:**<br>**Given** que estoy viendo el perfil de un alojamiento,<br>**When** accedo a la galería de imágenes,<br>**Then** puedo ver al menos 5 fotos reales del espacio, sus servicios y el entorno.<br><br>**Escenario 2:**<br>**Given** que soy un nuevo anfitrión,<br>**When** subo fotos a mi publicación,<br>**Then** la plataforma verifica y publica solo imágenes que cumplan los requisitos de calidad y realismo.| 3 |
-| 7 | US07 | Recomendaciones Personalizadas | Como explorador que ya viajó con ustedes quiero tener recomendaciones para seguir descubriendo nuevos destinos que se adapten a mí.|**Escenario 1:**<br>**Given** que ya he realizado reservas anteriores,<br>**When** ingreso a la página principal,<br>**Then** veo un carrusel con destinos sugeridos en base a mis viajes previos.<br><br>**Escenario 2:**<br>**Given** que actualizo mis preferencias de viaje,<br>**When** reviso las recomendaciones,<br>**Then** estas cambian automáticamente según mis nuevos intereses. | 5 |
-| 8 | US08 | Registro Anfitriones | Como emprendedora rural con un terreno atractivo quiero registrarme fácilmente en la plataforma con ayuda técnica, para poder ofrecer mi espacio sin complicaciones.| **Escenario 1:**<br>**Given** que soy una emprendedora rural sin conocimientos técnicos,<br>**When** ingreso a la sección "Convertirse en anfitrión",<br>**Then** puedo completar un formulario simple con ayuda visual y tutoriales.<br><br>**Escenario 2:**<br>**Given** que quiero registrar mi terreno,<br>**When** solicito soporte técnico,<br>**Then** recibo asistencia remota paso a paso para completar el proceso de registro. | 5 |
-| 9 | US09 | Impulso al Turismo Local | Como parte de una comunidad alejada de los destinos turísticos quiero que la plataforma me ayude a atraer visitantes a mi región, para impulsar el turismo local y generar ingresos sostenibles.| **Escenario 1:**<br>**Given** que soy parte de una comunidad rural,<br>**When** me registro como anfitrión o guía local,<br>**Then** la plataforma me sugiere formas de destacar mi experiencia con impacto social.<br><br>**Escenario 2:**<br>**Given** que los viajeros reservan en mi zona,<br>**When** dejan una reseña positiva sobre su experiencia comunitaria,<br>**Then** se mejora la visibilidad de mi oferta y se atraen más visitantes.| 8 |
-| 10 | US10 | Notificaciones a Anfitriones | Como anfitrión con poca experiencia digital quiero recibir notificaciones para sentirme acompañado en todo momento.|  **Escenario 1:**<br>**Given** que soy un anfitrión recién registrado,<br>**When** recibo una reserva,<br>**Then** me llega una notificación clara al correo y/o aplicación móvil.<br><br>**Escenario 2:**<br>**Given** que tengo una próxima visita,<br>**When** falta menos de 24 horas,<br>**Then** recibo un recordatorio con los datos del viajero y recomendaciones para la recepción.| 3 |
-| 11 | US11 | Contar Historia Local | Como anfitrión que quiere destacar su experiencia quiero poder contar mi historia y mostrar los valores de mi comunidad en mi perfil, para conectar con los viajeros.| **Escenario 1:**<br>**Given** que soy anfitrión registrado,<br>**When** ingreso a editar mi perfil,<br>**Then** puedo escribir mi historia, destacar valores locales y subir fotos para acompañarla.<br><br>**Escenario 2:**<br>**Given** que soy un viajero buscando alojamiento,<br>**When** ingreso al perfil de un anfitrión,<br>**Then** puedo leer su historia, ver imágenes y entender su propuesta cultural antes de reservar.| 5 |
-| 12 | US12 | Acceso a Comentarios | Como emprendedor que quiere crecer quiero acceder a reservas y comentarios, para entender cómo mejorar mi oferta y atraer más clientes.|**Escenario 1:**<br>**Given** que soy un anfitrión con reservas anteriores,<br>**When** accedo a la sección de retroalimentación,<br>**Then** puedo ver todos los comentarios recibidos, su fecha y el nombre del huésped.<br><br>**Escenario 2:**<br>**Given** que soy anfitrión y recibí una nueva reseña,<br>**When** ingreso a la reseña específica,<br>**Then** puedo escribir una respuesta visible públicamente para el huésped y otros usuarios.| 3 |
-| 13 | US13 | Comunidad de Anfitriones | Como miembro de una comunidad con otros anfitriones quiero poder colaborar y aprender de otros emprendedores en la red, para fortalecer nuestras capacidades y generar impacto juntos.|**Escenario 1:**<br>**Given** que soy anfitrión registrado en la plataforma,<br>**When** accedo a la sección de comunidad,<br>**Then** puedo ver publicaciones de otros anfitriones, comentar y compartir consejos.<br><br>**Escenario 2:**<br>**Given** que quiero aprender de otros,<br>**When** sigo a anfitriones destacados,<br>**Then** sus publicaciones aparecen prioritariamente en mi feed.| 5 |
+**Tabla de Epics**
+
+| Orden | Epic ID | Título                                  | Descripción breve                                                     | Story Points (estimado) |
+|-------|---------|----------------------------------------|----------------------------------------------------------------------|------------------------|
+| 1     | EP01    | Gestión de cuentas en Oasis             | Registro, login, perfil para usuarios huéspedes y anfitriones.       | 8                      |
+| 2     | EP02    | Gestión de reservas y estadías          | Búsqueda, reserva y gestión de alojamientos y servicios turísticos.  | 13                     |
+| 3     | EP03    | Administración de alojamientos y servicios | Gestión completa para anfitriones y emprendedores rurales.            | 15                     |
+| 4     | EP04    | Gestión de pagos a emprendedores rurales | Gestión y notificaciones de pagos para emprendedores rurales.        | 8                      |
 
 
+**Tabla de historias de usuario**
+
+| Epic/Story ID | Título                         | Descripción                                                                                      | Criterios de aceptación                                                                                                                      | Relacionado con (Epic ID) |
+|---------------|--------------------------------|------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------|--------------------------|
+| US01          | Registro de cuenta de usuario   | Como nuevo usuario no registrado quiero poder crear una cuenta en la plataforma Oasis para acceder a sus funcionalidades. | Dado que el usuario quiere registrarse, cuando completa el formulario de registro con datos válidos y hace clic en "Crear cuenta", entonces su cuenta se crea correctamente. | EP01                     |
+| US02          | Iniciar sesión                 | Como usuario registrado quiero iniciar sesión en Oasis para acceder a mi perfil y mis reservas. | Dado que el usuario quiere iniciar sesión, cuando introduce su correo y contraseña válidos y hace clic en “Iniciar sesión”, entonces accederá correctamente a su cuenta.          | EP01                     |
+| US03          | Buscar alojamientos glamping   | Como usuario huésped quiero poder buscar alojamientos glamping por ubicación, precio y disponibilidad para encontrar opciones que se ajusten a mis preferencias. | Dado que el usuario quiere buscar alojamientos, cuando introduce filtros de búsqueda y hace clic en “Buscar”, entonces el sistema le mostrará las opciones que cumplan con esos criterios. | EP02                     |
+| US04          | Reservar alojamiento           | Como usuario huésped quiero poder reservar un alojamiento glamping disponible para asegurar mi estadía. | Dado que el usuario ha seleccionado un alojamiento disponible, cuando hace clic en “Reservar” y completa el pago, entonces se confirma su reserva y se actualiza el calendario del anfitrión. | EP02                     |
+| US05          | Publicar alojamiento           | Como usuario anfitrión quiero poder publicar un alojamiento glamping para ofrecerlo a los usuarios huéspedes. | Dado que el anfitrión desea publicar su alojamiento, cuando llena el formulario de publicación con la información requerida y hace clic en “Publicar”, entonces su alojamiento se añade al catálogo. | EP03                     |
+| US05          | Visualizar catálogo de servicios | Como usuario turista, quiero visualizar un catálogo de servicios ofrecidos por emprendedores rurales para elegir experiencias que se ajusten a mis intereses. | Dado que el usuario quiere conocer los servicios disponibles, cuando accede a la sección de "Explorar experiencias rurales", entonces podrá visualizar una lista con los servicios organizados por ubicación, tipo y precio. | EP02                     |
+| US06          | Reservar servicio turístico    | Como usuario turista, quiero poder reservar un servicio ofrecido por un emprendedor rural para asegurarme de tener una experiencia programada en mi viaje. | Dado que el usuario ha seleccionado un servicio, cuando hace clic en “Reservar” y completa el formulario con fecha y número de personas, entonces la reserva se confirmará y se le notificará por correo o notificación in-app. | EP02                     |
+| US07          | Ver historial de reservas de servicios | Como usuario turista, quiero visualizar el historial de mis reservas de servicios para llevar el control de mis experiencias anteriores y futuras. | Dado que el usuario desea ver su historial, cuando accede a la sección “Mis reservas”, entonces verá una lista con todas sus reservas pasadas y próximas.                              | EP02                     |
+| US08          | Calificar servicio recibido    | Como usuario turista, quiero calificar el servicio recibido por el emprendedor rural para ayudar a otros usuarios a elegir mejores experiencias. | Dado que el usuario ha completado una reserva, cuando accede a la sección “Mis reservas” y selecciona un servicio finalizado, entonces podrá dejar una calificación de 1 a 5 estrellas y un comentario opcional. | EP02                     |
+| US09          | Registrar nuevo servicio turístico | Como emprendedor rural del segmento 2, quiero registrar un nuevo servicio (como guiado, alimentación, hospedaje, actividades culturales, etc.) para ofrecerlo a través de la plataforma. | Dado que el emprendedor quiere ofrecer un nuevo servicio, cuando accede a “Mis servicios” y hace clic en “Registrar nuevo servicio”, entonces podrá completar un formulario con detalles del servicio (nombre, tipo, descripción, disponibilidad, precio, fotos) y publicarlo. | EP03                     |
+| US10          | Editar servicio publicado      | Como emprendedor rural del segmento 2, quiero editar la información de un servicio que ya publiqué para mantener actualizada su descripción o disponibilidad. | Dado que el emprendedor desea hacer cambios en un servicio, cuando accede a “Mis servicios” y selecciona uno publicado, entonces podrá modificar los campos necesarios y guardar los cambios. | EP03                     |
+| US11          | Pausar disponibilidad de servicio | Como emprendedor rural del segmento 2, quiero pausar temporalmente la disponibilidad de un servicio para que no pueda ser reservado mientras esté inactivo. | Dado que el emprendedor no puede ofrecer temporalmente un servicio, cuando hace clic en “Pausar servicio” en el panel de administración, entonces el servicio dejará de mostrarse a los turistas hasta que sea reactivado. | EP03                     |
+| US12          | Eliminar servicio turístico    | Como emprendedor rural del segmento 2, quiero eliminar un servicio turístico que ya no pienso ofrecer para que no aparezca más en la plataforma. | Dado que el emprendedor ya no ofrecerá un servicio, cuando accede a “Mis servicios”, selecciona uno y hace clic en “Eliminar servicio”, entonces el servicio será eliminado de la plataforma permanentemente. | EP03                     |
+| US13          | Visualizar historial de reservas recibidas | Como emprendedor rural del segmento 2, quiero ver un historial de todas las reservas recibidas para tener un control de mis ingresos y actividad. | Dado que el emprendedor desea revisar sus reservas, cuando accede a la sección “Historial de reservas”, entonces podrá ver una lista con la fecha, nombre del turista, servicio reservado y estado (completado, cancelado, en curso). | EP03                     |
+| US14          | Agregar cuenta bancaria para pagos | Como emprendedor rural del segmento 2, quiero registrar mi cuenta bancaria para recibir los pagos por los servicios turísticos que ofrezco. | Dado que el emprendedor desea recibir pagos por sus servicios, cuando accede a la sección “Mis pagos” y selecciona “Agregar cuenta bancaria”, entonces podrá ingresar los datos necesarios (titular, número de cuenta, banco, tipo de cuenta) y guardarlos correctamente. | EP04                     |
+| US15          | Consultar historial de pagos recibidos | Como emprendedor rural del segmento 2, quiero poder consultar un historial de los pagos recibidos por mis servicios para llevar un control financiero. | Dado que el emprendedor desea conocer cuánto y cuándo ha recibido pagos, cuando accede a “Mis pagos” y selecciona “Historial de pagos”, entonces visualizará una lista con fechas, servicios asociados, monto pagado y estado del pago (procesado, pendiente, rechazado). | EP04                     |
+| US16          | Recibir notificaciones de nuevos pagos | Como emprendedor rural del segmento 2, quiero recibir notificaciones cuando se procese un nuevo pago por mis servicios para estar informado oportunamente. | Dado que el emprendedor espera recibir su pago, cuando el sistema complete una transacción, entonces el emprendedor recibirá una notificación dentro de la app y/o por correo con los detalles del pago. | EP04                     |
+
+
+---
 
 
 #### 3.3. Impact Mapping.
@@ -612,6 +697,8 @@ Características:<br>
 - Navegación por etapas (lineal) para reservas: el usuario sigue un flujo paso a paso: elegir destino → seleccionar alojamiento → configurar servicios → confirmar reserva.<br>
 - Accesos directos visuales: uso de tarjetas clicables con imágenes destacadas que conducen a destinos o categorías populares.
 
+---
+
 ## 4.3. Landing Page UI Design
 
 ### 4.3.1. Landing Page Wireframe
@@ -631,6 +718,8 @@ Características:<br>
 ![](images/cap4/Destinos-Color.png)
 ![](images/cap4/Eventos-Color.png)
 ![](images/cap4/Experiencias-Color.png)
+
+---
 
 ### 4.6 Domain-Driven Software Architecture
 
@@ -697,7 +786,7 @@ Service: Partes de la aplicación que realizan una o varias tareas específicas.
 Repository: Permite el acceso a una base de datos.
 Context Facade: Proporciona una interface en la cual se puede acceder a los servicios del bounded context. 
 
-
+---
 
 ## 4.7. Software Object-Oriented Design
 El diseño orientado a objetos del software será esencial para nuestro proyecto. Estructuramos nuestro software de acuerdo a nuestras reglas de
@@ -773,6 +862,8 @@ Se creó un diseño preeliminar de la base de datos a utilizar
 ### 4.8.1 Database Diagram
 
 ![dbDiagram](https://github.com/Desarrollo-Open-Source-Grupo-4/Open_Source_Grupo_4/blob/main/images/cap4/DB_Diagram.png?raw=true)
+
+---
 
 ## Capítulo V: Product Implementation, Validation & Deployment
 ### 5.1. Software Configuration Management.
@@ -883,6 +974,8 @@ Estas convenciones nos ayudan a mantener el código organizado, legible y cohere
 #### 5.1.4. Software Deployment Configuration.
 
 Explicaremos cómo realizar el despliegue de nuestra Landing Page utilizando el servicio automatizado en la nube de GitHub Pages. A continuación, detallaremos los pasos necesarios para lograr este proceso.
+
+---
 
 ### 5.2. Landing Page, Services & Applications Implementation.
 #### 5.2.1. Sprint 1.
