@@ -349,22 +349,23 @@ El objetivo del análisis competitivo es investigar y evaluar los principales co
 
 
 #### 2.2.2. Registro de entrevistas
-Entrevista #1 - Juan Calderón.
--
+Entrevista #1 - Juan Rubén Quijano Calderón.
+
+- Edad: 25 años.
+- Residencia: Lima, cercado de Lima.
+
 ![1.](https://github.com/Desarrollo-Open-Source-Grupo-4/Open_Source_Grupo_4/blob/main/images/cap2/foto_entrevistas.png?raw=true)
 https://drive.google.com/file/d/17AFZaJjcbcRVmYiHYgJDLiXQZu9t8cME/view?usp=sharing
 
-
-Entrevista #2 - Vero Rojas
--
-![2.](https://github.com/Desarrollo-Open-Source-Grupo-4/Open_Source_Grupo_4/blob/main/images/cap2/foto_entrevistas2.png?raw=true)
-https://drive.google.com/file/d/17AFZaJjcbcRVmYiHYgJDLiXQZu9t8cME/view?usp=sharing
+- El entrevistado entra en el grupo de "Jovenes enamorados y nomadas digitales", sus respuestas no fueron particulares, en general era lo esperado. Con el pudimos concluir que la mayoría de jóvenes de su edad consideran algo importante el tener el pago por cuetas a la mano. También se convierte en el primero en mencionar a la sierra cómo un destino deseable. 
 
 Entrevista #3 César León
--
+- Edad: 21 años.
+- Residencia: La libertad, Trujillo.  
 ![3.](https://github.com/Desarrollo-Open-Source-Grupo-4/Open_Source_Grupo_4/blob/main/images/cap2/foto_entrevistas3.png?raw=true)
 https://drive.google.com/file/d/17AFZaJjcbcRVmYiHYgJDLiXQZu9t8cME/view?usp=sharing
 
+- Tuvo unas respuestas muy similares al anterior, la única diferencia siendo que este prefería el pago completo.
 
 #### 2.2.3. Análisis de entrevistas
 
