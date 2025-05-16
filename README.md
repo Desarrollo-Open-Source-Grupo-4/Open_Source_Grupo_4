@@ -152,111 +152,137 @@ Sin una solución efectiva para democratizar esta experiencia, el problema ha co
 
 **Problemática (6W + 1H)**
 
-- **What (Qué):** Falta de acceso descentralizado, personalizado y asequible al turismo de lujo tipo glamping en el Perú.  
-- **When (Cuándo):** Especialmente evidente después del resurgimiento del turismo post-pandemia.  
-- **Where (Dónde):** En regiones con potencial turístico aún no desarrollado: sierra, selva, y zonas costeras alternativas del Perú.  
-- **Who (Quiénes):** Afecta a turistas nacionales y extranjeros con presupuesto medio, y a comunidades rurales con potencial turístico.  
-- **Why (Por qué):** Porque las propuestas actuales están centralizadas, son gestionadas por pocos operadores y mantienen precios elevados.  
-- **How (Cómo):** Limita la inclusión de nuevos públicos en el turismo de lujo y frena el desarrollo de regiones fuera del circuito tradicional.  
+- **What (Qué):** Falta de acceso descentralizado, personalizado y asequible al turismo de lujo tipo glamping en el Perú.
+- **When (Cuándo):** Especialmente evidente después del resurgimiento del turismo post-pandemia.
+- **Where (Dónde):** En regiones con potencial turístico aún no desarrollado: sierra, selva, y zonas costeras alternativas del Perú.
+- **Who (Quiénes):** Afecta a turistas nacionales y extranjeros con presupuesto medio, y a comunidades rurales con potencial turístico.
+- **Why (Por qué):** Porque las propuestas actuales están centralizadas, son gestionadas por pocos operadores y mantienen precios elevados.
+- **How (Cómo):** Limita la inclusión de nuevos públicos en el turismo de lujo y frena el desarrollo de regiones fuera del circuito tradicional.
 - **How much (Cuánto):** Se estima que un 70% del turismo de lujo se concentra en menos del 15% del territorio nacional, generando oportunidades perdidas en regiones rurales con alto valor ecológico y cultural.
 
 #### 1.2.2. Lean UX Process
 
 ##### 1.2.2.1. Lean UX Problem Statements
 
-Los viajeros buscan experiencias inmersivas y únicas en la naturaleza, pero el turismo de lujo tipo glamping en el Perú aún es inaccesible para muchos debido a su centralización, altos costos y limitada personalización.
+**Problema Principal:** Existe una brecha significativa entre la creciente demanda de experiencias de viaje auténticas y conectadas con la naturaleza, como el glamping, y la oferta actual en Perú. Esta última se caracteriza frecuentemente por su concentración en pocas zonas geográficas, precios que resultan elevados para un amplio segmento de la población y opciones de personalización de la experiencia que son limitadas o inexistentes.
 
-Esto impide que segmentos de viajeros con presupuestos medios puedan disfrutar de este tipo de experiencias y que comunidades rurales con alto potencial turístico participen del desarrollo económico que genera el turismo.
+**Impactos del Problema:**
+* Viajeros con presupuestos moderados o aquellos que buscan opciones más flexibles y adaptadas a sus intereses particulares, ven restringidas sus posibilidades de acceder a este tipo de turismo experiencial.
+* Comunidades rurales y emprendedores locales con potencial para desarrollar ofertas de glamping únicas, auténticas y sostenibles enfrentan barreras significativas para ingresar al mercado, limitando su capacidad de generar ingresos y beneficiarse del desarrollo turístico.
+* La diversidad de experiencias de glamping disponibles para el público general es reducida, lo que resulta en un desaprovechamiento de la vasta riqueza natural y cultural que poseen múltiples regiones del Perú, más allá de los circuitos turísticos tradicionales.
 
-*¿Cómo podríamos diseñar una plataforma digital que permita ofrecer experiencias de glamping más accesibles, personalizadas y descentralizadas en el Perú, beneficiando tanto a los viajeros como a las comunidades locales?*
+**Pregunta Clave de Enfoque (Centrada en el Problema):**
+*¿Cómo podríamos abordar las barreras de acceso económico y geográfico, así como la limitada diversidad y personalización en la oferta de experiencias de glamping en Perú, con el fin de satisfacer las necesidades y expectativas de un espectro más amplio de viajeros y, simultáneamente, fomentar la creación de nuevas oportunidades de desarrollo para las comunidades locales y emprendedores regionales?*
 
 ##### 1.2.2.2. Lean UX Assumptions
 
-**Business Assumptions:**
+**Suposiciones del Negocio (Business Assumptions):**
 
-- Las personas están dispuestas a pagar por experiencias glamping si pueden personalizarlas y se les ofrece a precios más accesibles.  
-- Hay comunidades y emprendedores rurales interesados en ofrecer espacios para glamping.  
-- Una plataforma centralizada puede reducir los costos de operación y aumentar la visibilidad de las experiencias.  
+-   Las personas están dispuestas a invertir en experiencias de glamping si estas ofrecen una clara propuesta de valor en términos de personalización, autenticidad y precios competitivos.
+-   Existen comunidades y emprendedores rurales con terrenos y recursos adecuados que están interesados y motivados en desarrollar y ofrecer servicios de glamping de calidad si se les facilitan las herramientas y el acceso al mercado.
+-   Un modelo de negocio que conecte directamente a viajeros con anfitriones locales puede optimizar costos operativos y aumentar la visibilidad de experiencias únicas y descentralizadas.
+-   Existe un segmento de mercado creciente y desatendido que busca activamente alternativas a los hoteles tradicionales y valora la sostenibilidad, la conexión con la naturaleza y el impacto positivo en las comunidades locales.
+-   La inversión estratégica en marketing digital y la promoción focalizada en destinos no tradicionales pueden generar un interés significativo y una demanda constante si se comunican de manera efectiva los atractivos y singularidades de cada lugar.
+-   Los anfitriones rurales poseen un conocimiento local invaluable (cultural, gastronómico, natural) que, si se integra y canaliza adecuadamente, puede enriquecer sustancialmente la experiencia del viajero y diferenciar la oferta.
+-   Un modelo de comisiones por reserva confirmada y concretada es un esquema de monetización viable, transparente y escalable, aceptable tanto para los anfitriones como para la plataforma.
+-   La creación de alianzas estratégicas con entidades de promoción turística regional, ONGs de desarrollo local y cooperativas puede acelerar la adopción de la plataforma y la expansión de la oferta de glamping.
 
-**Business Outcomes:**
+**Resultados Esperados del Negocio (Business Outcomes):**
 
-- Incremento del número de reservas en la plataforma en un 30% en los primeros 6 meses.  
-- Inclusión de al menos 10 nuevas locaciones de glamping en zonas no tradicionales durante el primer año.  
-- Generación de ingresos sostenibles para aliados rurales locales.  
+-   Incremento progresivo del número de reservas mensuales a través de la plataforma, alcanzando un crecimiento promedio del 25% durante el primer año de operaciones.
+-   Incorporación de al menos 20 nuevas y diversas ubicaciones de glamping, con un énfasis en regiones emergentes y con limitado desarrollo turístico previo, dentro de los primeros 18 meses.
+-   Lograr un índice de satisfacción del anfitrión (Host Satisfaction Score) igual o superior a 4.5 sobre 5 estrellas, medido a través de encuestas trimestrales y feedback directo.
+-   Generar un volumen de transacciones que permita cubrir los costos operativos totales y alcanzar el punto de equilibrio financiero en un plazo máximo de 24 meses desde el lanzamiento.
+-   Posicionar la marca Oasis como un referente reconocido en el mercado peruano por ofrecer turismo de glamping accesible, auténtico y sostenible.
+-   Reducción del costo de adquisición de clientes (CAC) en un 15% tras el primer año de operación, impulsado por el crecimiento orgánico, las recomendaciones de usuarios satisfechos y el marketing de boca a boca.
+-   Alcanzar una tasa de ocupación promedio del 50% para los anfitriones activos y validados en la plataforma después de los primeros 9 meses de su incorporación.
 
-**User Benefits:**
+**Suposiciones del Usuario (User Assumptions):**
 
-- Mayor acceso a experiencias glamping a menor precio y con personalización según intereses (aventura, descanso, romance, etc.).  
-- Interfaz amigable y clara para elegir locación, tipo de alojamiento, servicios y actividades.  
-- Seguridad y confianza mediante gestión profesional desde la misma plataforma.  
+-   Los viajeros confían de manera creciente en las recomendaciones, reseñas detalladas y calificaciones proporcionadas por otros usuarios al momento de planificar y tomar decisiones sobre sus viajes.
+-   Los usuarios esperan y valoran la capacidad de realizar todo el proceso de búsqueda, comparación, personalización y reserva de manera completamente online, con una experiencia fluida y optimizada para dispositivos móviles.
+-   La seguridad en las transacciones financieras y la protección rigurosa de sus datos personales son factores críticos e innegociables para generar y mantener la confianza del usuario en la plataforma.
+-   Los viajeros, especialmente en un contexto de planificación flexible, valoran positivamente la existencia de políticas de cancelación claras, justas y adaptables.
+-   Los usuarios consideran que la calidad y veracidad de la información visual (fotografías, videos) de los alojamientos y su entorno son determinantes para su elección.
+-   Los viajeros están dispuestos a pagar un precio justo por experiencias que perciben como auténticas, personalizadas y que contribuyen al desarrollo local.
+
+**Beneficios para el Usuario (User Benefits):**
+
+-   Mayor acceso a una oferta diversa y curada de experiencias de glamping, con opciones que se ajustan a diferentes presupuestos y preferencias, a lo largo de todo el territorio peruano.
+-   Posibilidad de personalizar su estadía de manera significativa, eligiendo no solo el tipo de alojamiento, sino también actividades complementarias, servicios adicionales y el nivel de interacción cultural deseado.
+-   Descubrimiento de "joyas ocultas" y destinos auténticos y menos convencionales, fomentando un turismo más distribuido, consciente y enriquecedor.
+-   Confianza y seguridad durante todo el proceso de reserva y pago, respaldado por políticas transparentes, un sistema de pago robusto y un canal de soporte al cliente eficiente.
+-   Ahorro significativo de tiempo y esfuerzo en la planificación de viajes de glamping, al centralizar la búsqueda, comparación, personalización y reserva en una única plataforma intuitiva.
+-   Oportunidad de apoyar directamente a emprendedores locales y comunidades rurales, contribuyendo a un modelo de turismo más sostenible y equitativo.
+-   Acceso a información detallada y verificada sobre cada destino y anfitrión, incluyendo reseñas de otros viajeros, para tomar decisiones informadas.
 
 ##### 1.2.2.3. Lean UX Hypothesis Statements
 
-- **Hipótesis 1:** Creemos que al permitir a los usuarios personalizar su experiencia de glamping (ubicación, servicios y actividades), especialmente para viajeros jóvenes y parejas, sabremos que hemos tenido éxito cuando el 60% de los usuarios personalicen al menos dos elementos de su experiencia al momento de la reserva.  
-- **Hipótesis 2:** Creemos que al ofrecer experiencias de glamping en regiones descentralizadas mediante acuerdos con emprendedores locales, sabremos que hemos tenido éxito cuando el 40% de las reservas se realicen en destinos no tradicionales en los primeros seis meses.  
-- **Hipótesis 3:** Creemos que al implementar una plataforma digital centralizada con opciones flexibles y visuales, sabremos que hemos tenido éxito cuando al menos el 80% de los usuarios completen una reserva sin necesidad de asistencia externa.  
+-   **Hipótesis 1 (Personalización Avanzada):** Creemos que *al ofrecer a los usuarios la capacidad de filtrar y seleccionar múltiples atributos de su experiencia de glamping (ej. tipo de entorno natural, nivel de aventura deseado, servicios específicos como Wi-Fi de alta velocidad, pet-friendly, opciones gastronómicas locales)*, lograremos *un aumento en la tasa de conversión de "búsqueda detallada" a "inicio de proceso de reserva" en un 15% para aquellos usuarios que utilicen al menos tres filtros de personalización avanzada*, porque *los usuarios valoran profundamente tener un control granular sobre su experiencia y encontrar opciones que se alineen precisamente con sus necesidades, deseos y estilo de viaje*. Sabremos que esto es cierto si, tras implementar un sistema de filtros avanzados y personalización detallada, observamos el incremento mencionado en la tasa de conversión en un plazo de 3 meses, medido a través de las analíticas de la plataforma.
+-   **Hipótesis 2 (Impacto de la Oferta Descentralizada):** Creemos que *al destacar y promocionar activamente experiencias de glamping ubicadas en regiones menos conocidas pero con un alto potencial turístico y cultural, utilizando narrativas visuales y testimoniales atractivas*, lograremos que *al menos el 30% del total de las reservas confirmadas a través de la plataforma durante el primer año de operación correspondan a estos destinos emergentes*, porque *existe un segmento creciente de viajeros (exploradores conscientes) que busca activamente salir de las rutas turísticas convencionales y descubrir lugares auténticos, menos masificados y con una fuerte conexión local*. Validaremos esta hipótesis si alcanzamos o superamos dicha proporción de reservas en destinos emergentes en el tiempo estipulado, analizando los datos de geolocalización de las reservas.
+-   **Hipótesis 3 (Optimización de la Experiencia de Reserva):** Creemos que *al diseñar un flujo de reserva extremadamente simplificado, intuitivo y visualmente guiado, que no exceda los 4 pasos clave (selección y personalización, datos del huésped, revisión y pago, confirmación) y que sea completamente responsive en la plataforma web y móvil*, conseguiremos que *el 90% de los usuarios que inicien el proceso de reserva lo completen exitosamente sin necesidad de asistencia externa, y que el tiempo promedio para completar una reserva sea inferior a 6 minutos*, porque *una experiencia de usuario fluida, rápida y sin fricciones es fundamental para minimizar la tasa de abandono del carrito y generar confianza en la transacción*. Mediremos esto a través de analíticas de embudo de conversión de la plataforma, pruebas de usabilidad con usuarios reales y tiempos de finalización de tarea.
+-   **Hipótesis 4 (Facilitación para Anfitriones):** Creemos que *al proporcionar a los anfitriones herramientas de gestión de sus listados que sean intuitivas y accesibles (calendario de disponibilidad sincronizable, sistema de precios dinámicos sugeridos, plantillas de comunicación con huéspedes) junto con guías claras y recursos de capacitación sobre buenas prácticas en hospitalidad y sostenibilidad*, lograremos *un incremento del 25% en el número de noches disponibles ofertadas por anfitrión activo en los primeros 3 meses de uso continuo de estas herramientas*, porque *simplificando la administración y empoderando a los anfitriones con conocimiento se incentiva una mayor participación, una oferta más profesional y una mejor gestión del inventario*. Sabremos que esto es cierto si medimos un aumento en la oferta activa, una reducción en las consultas de soporte técnico por parte de los anfitriones y una mejora en las calificaciones promedio de los anfitriones que utilizan activamente las herramientas.
+-   **Hipótesis 5 (Poder de la Prueba Social):** Creemos que *al destacar prominentemente las reseñas verificadas, las calificaciones detalladas (por criterios como limpieza, veracidad, comunicación, ubicación) y las fotografías compartidas por otros viajeros para cada opción de glamping*, lograremos *un aumento del 20% en la tasa de conversión de "visualización de la página de detalle del glamping" a "añadir al carrito" o "iniciar reserva"*, porque *la prueba social y las experiencias auténticas compartidas por pares son un factor altamente influyente y determinante en la toma de decisiones de compra en el sector turístico*. Validaremos esto mediante pruebas A/B comparando tasas de conversión entre páginas con diferente prominencia y formato de reseñas, y analizando el comportamiento del usuario en la página.
+-   **Hipótesis 6 (Viralización y Adquisición Orgánica):** Creemos que *al implementar un programa de referidos de doble incentivo (beneficios tanto para el referente como para el referido) que sea fácil de usar y compartir para viajeros y anfitriones*, conseguiremos que *el 15% de las nuevas altas de usuarios viajeros y el 10% de las nuevas altas de anfitriones provengan de este programa en los primeros 6 meses post-lanzamiento del programa*, porque *las recomendaciones personales de fuentes confiables son un canal de adquisición de alta conversión y relativamente bajo costo*. Mediremos el éxito a través del seguimiento de códigos de referido únicos, tasas de conversión de referidos y el costo de adquisición por esta vía.
+-   **Hipótesis 7 (Conexión Emocional a través del Contenido):** Creemos que *al integrar contenido inspirador y enriquecedor sobre los destinos (como mini-guías locales interactivas, historias de la comunidad contadas por los propios anfitriones, detalles sobre el impacto sostenible de la estadía) directamente en las páginas de presentación de los glampings*, lograremos *aumentar el tiempo promedio de permanencia del usuario en la página del glamping en un 35% y mejorar la percepción de valor y autenticidad de la oferta en un 15% (medido por encuestas post-navegación)*, porque *los viajeros modernos buscan más que solo un lugar para dormir; buscan una conexión emocional, una historia y un propósito en sus viajes*. Esto se medirá con analíticas web (tiempo en página, tasa de rebote) y encuestas de percepción del usuario sobre la riqueza y el atractivo del contenido.
 
 ##### 1.2.2.4. Lean UX Canvas
 
-**Business Problem:**  
+**Business Problem:**
 El turismo de lujo tipo glamping está actualmente centralizado, limitado a un público exclusivo y con escasa presencia fuera de las rutas turísticas tradicionales. Esto reduce las oportunidades de desarrollo turístico en otras regiones y excluye a viajeros con presupuestos medios.
 
 **Users & Customers:**
 
-- Viajeros millennials y generación Z interesados en experiencias únicas y sostenibles.  
-- Parejas en busca de escapadas románticas con estilo y confort.  
-- Emprendedores rurales que poseen terrenos con potencial turístico.  
-- Turistas extranjeros que buscan opciones auténticas fuera de los circuitos tradicionales.  
+- Viajeros millennials y generación Z interesados en experiencias únicas y sostenibles.
+- Parejas en busca de escapadas románticas con estilo y confort.
+- Emprendedores rurales que poseen terrenos con potencial turístico.
+- Turistas extranjeros que buscan opciones auténticas fuera de los circuitos tradicionales.
 
 **Hypotheses:**
 
-- Si ofrecemos experiencias de glamping personalizadas a precios accesibles, más personas reservarán fuera de los destinos tradicionales.  
-- Si involucramos a comunidades rurales, aumentará la oferta y se fomentará el desarrollo económico local.  
+- Si ofrecemos experiencias de glamping personalizadas a precios accesibles, más personas reservarán fuera de los destinos tradicionales.
+- Si involucramos a comunidades rurales, aumentará la oferta y se fomentará el desarrollo económico local.
 
 **Solution Ideas:**
 
-- Plataforma con filtros dinámicos para personalizar la experiencia.  
-- Sistema de alianzas con emprendedores locales y formación turística.  
-- Evaluaciones en línea y reseñas confiables para cada experiencia.  
-- Suscripciones o membresías para beneficios exclusivos.  
+- Plataforma con filtros dinámicos para personalizar la experiencia.
+- Sistema de alianzas con emprendedores locales y formación turística.
+- Evaluaciones en línea y reseñas confiables para cada experiencia.
+- Suscripciones o membresías para beneficios exclusivos.
 
-**What’s the most important thing we need to learn first?**  
+**What’s the most important thing we need to learn first?**
 Validar que existe un mercado interesado en experiencias glamping accesibles y que las comunidades estarían dispuestas a ofrecer sus espacios.
 
 **Business Outcomes:**
 
-- Aumento de reservas en un 30% trimestral.  
-- Alianzas activas con al menos 10 comunidades en el primer año.  
-- Reducción de costos operativos en un 20% gracias a la gestión digital centralizada.  
+- Aumento de reservas en un 30% trimestral.
+- Alianzas activas con al menos 10 comunidades en el primer año.
+- Reducción de costos operativos en un 20% gracias a la gestión digital centralizada.
 
 **User Benefits:**
 
-- Más opciones, más flexibilidad y mejor precio.  
-- Conexión real con la naturaleza y la cultura local.  
-- Confianza, seguridad y experiencia gestionada profesionalmente.  
+- Más opciones, más flexibilidad y mejor precio.
+- Conexión real con la naturaleza y la cultura local.
+- Confianza, seguridad y experiencia gestionada profesionalmente.
 
-**What’s the least amount of work we need to do to learn the next most important thing?**  
+**What’s the least amount of work we need to do to learn the next most important thing?**
 Desarrollar un MVP funcional de la plataforma con 3 ubicaciones de prueba, opción de personalización básica y seguimiento de la experiencia del usuario desde la reserva hasta el post-estancia.
 
 ---
 
 ### 1.3. Segmentos objetivo
 
-**Perfil 1: Jóvenes adultos (25-35 años)**  
-- Estilo de vida: Aventureros, tech-savvy, buscan experiencias auténticas pero con comodidad.  
-- Motivaciones: Escapadas de fin de semana, turismo interno, contacto con la naturaleza sin perder el confort.  
-- Comportamiento digital: Usan apps/webs para planificar viajes, confían en reseñas, valoran la personalización.  
-- Presupuesto: Medio, pero buscan optimizar valor por su dinero.  
+**Perfil 1: Jóvenes adultos (25-35 años)**
+- Estilo de vida: Aventureros, tech-savvy, buscan experiencias auténticas pero con comodidad.
+- Motivaciones: Escapadas de fin de semana, turismo interno, contacto con la naturaleza sin perder el confort.
+- Comportamiento digital: Usan apps/webs para planificar viajes, confían en reseñas, valoran la personalización.
+- Presupuesto: Medio, pero buscan optimizar valor por su dinero.
 
-**Perfil 2: Parejas y nómadas digitales**  
-- Estilo de vida: Buscan lugares tranquilos, románticos o inspiradores.  
-- Motivaciones: Desconexión, relax, celebraciones, trabajar remotamente desde lugares diferentes.  
-- Comportamiento digital: Valoran privacidad, vistas únicas, buenas fotos y conexión a internet.  
+**Perfil 2: Parejas y nómadas digitales**
+- Estilo de vida: Buscan lugares tranquilos, románticos o inspiradores.
+- Motivaciones: Desconexión, relax, celebraciones, trabajar remotamente desde lugares diferentes.
+- Comportamiento digital: Valoran privacidad, vistas únicas, buenas fotos y conexión a internet.
 
-**Perfil 3: Turistas extranjeros interesados en experiencias fuera del circuito tradicional**  
-- Estilo de vida: Curiosos, con interés en la cultura local y sostenibilidad.  
-- Motivaciones: Vivir el Perú desde una perspectiva diferente, con servicios seguros y bien organizados.  
-- Comportamiento digital: Planifican con antelación, usan portales globales de viaje, valoran la autenticidad.  
 
 ## Capítulo II: Requirements Elicitation & Analysis
 
