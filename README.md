@@ -15,7 +15,7 @@
 # Curso: Desarrollo de Aplicaciones Open Source<br>
  ### Sección: 4328<br><br>
 
-  ### Informe del TB1<br>
+  ### Informe del TP1<br>
   ### Startup: Oasis<br>
   ### Producto: Oasis App<br><br>
 
