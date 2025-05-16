@@ -1164,6 +1164,10 @@ Este es el link de invitacion a nuestro trello: https://trello.com/invite/b/6826
 | landing-page | main | 8e4d4fd                                  |   |  No description provided | 16/05/2025 |
  
  #### 5.2.2.5. Execution Evidence for Sprint Review.
+En esta entrega no se realizaron cambios significativos en la landing page. Se ha desarrollado un avance con respecto al Frontend como se muestra a continuacion: 
+
+![Captura de pantalla 2025-05-16 045108](https://github.com/user-attachments/assets/9c8bae39-8578-4080-94e6-9e435a08a1ac)
+
 
  #### 5.2.2.6. Services Documentation Evidence for Sprint Review.
 
