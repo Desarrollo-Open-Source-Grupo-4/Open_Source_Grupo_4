@@ -1157,11 +1157,11 @@ Este es el link de invitacion a nuestro trello: https://trello.com/invite/b/6826
  
   | Repository | Branch | Commit Id | Commit <br>Message | Commit <br>Message Body | Commited <br>on (Date) |
 |:-------------:|:---------------:|:-------------:|:-------------:|:---------------:|:-------------:|
-| landing-page | main | b67c724d45f0d781e6bb1641469472039df4fbd8 |   |  No description provided | 16/05/2025 |
-| landing-page | main | a7b94cb034e8702cf93a94907a499156513275c2 |   |  No description provided | 16/05/2025 |
-| landing-page | main | de33ade90354d7ca9156ec92f80d2747d1335edc |   |  No description provided | 16/05/2025 |
-| landing-page | main | de33ade90354d7ca9156ec92f80d2747d1335edc |   |  No description provided | 16/05/2025 |
-| landing-page | main | 8e4d4fd                                  |   |  No description provided | 16/05/2025 |
+| Oasis-Site | main | b67c724d45f0d781e6bb1641469472039df4fbd8 |   |  No description provided | 16/05/2025 |
+| Oasis-Site | main | a7b94cb034e8702cf93a94907a499156513275c2 |   |  No description provided | 16/05/2025 |
+| Oasis-Site | main | de33ade90354d7ca9156ec92f80d2747d1335edc |   |  No description provided | 16/05/2025 |
+| Oasis-Site | main | de33ade90354d7ca9156ec92f80d2747d1335edc |   |  No description provided | 16/05/2025 |
+| Oasis-Site | main | 8e4d4fd                                  |   |  No description provided | 16/05/2025 |
  
  #### 5.2.2.5. Execution Evidence for Sprint Review.
 En esta entrega no se realizaron cambios significativos en la landing page. Se ha desarrollado un avance con respecto al Frontend como se muestra a continuacion: 
