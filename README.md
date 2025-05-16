@@ -1017,21 +1017,21 @@ Explicaremos cómo realizar el despliegue de nuestra Landing Page utilizando el 
 
 | **Id**        | **Title**                                | **Id**  | **Title**                     | **Description**                                                    | **Estimation (Hours)** | **Assigned To**                    | **Status** |
 |--------------|------------------------------------------|---------|-------------------------------|--------------------------------------------------------------------|------------------------|-----------------------------------|------------|
- | US01 | Barra de navegación en la Landing Page | TS01 |Barra de navegación en la Landing Page (Desarrollado en HTML, CSS y JS).| Implementación del header y la barra de navegación, desarrollados en HTML, CSS y JS con diseño responsive. | 8      |  | Done     |
- | US01 | 	Sección de beneficios de la Aplicación   | TS02 | Sección de beneficios (Desarrollado en HTML, CSS y JS).|Desarrollar una sección que destaque los beneficios clave de RideFind utilizando HTML, CSS, y componentes reutilizables con diseño responsive. | 6                |  | Done                                   |
- | US01 | Información sobre Nosotros           | TS03 | Sección de "Acerca de" (Desarrollado en HTML, CSS y JS).| Implementar la sección "Sobre Nosotros", mostrando información clave de la empresa con diseño responsive  | 4                 |    | Done                                   |
- | US01 | Redes Sociales y Footer | TS04 | Redes Sociales y Footer (Desarrollado en HTML, CSS y JS).| Crear un footer con enlaces a redes sociales, optimizado para diferentes resoluciones de pantalla, asegurando su visibilidad en todo tipo de dispositivos.| 4 |  | Done
- | US01 | Sección de contacto | TS04 | Sección de contacto (Desarrollado en HTML, CSS y JS).| Implementar una sección de contacto con un formulario básico, validación de datos, y diseño responsive para garantizar su correcto funcionamiento en móviles.| 4 |  | Done
+ | US01 | Barra de navegación en la Landing Page | TS01 |Barra de navegación en la Landing Page (Desarrollado en HTML, CSS y JS).| Implementación del header y la barra de navegación, desarrollados en HTML, CSS y JS con diseño responsive. | 1      |  | Done     |
+ | US01 | 	Sección de beneficios de la Aplicación   | TS02 | Sección de beneficios (Desarrollado en HTML, CSS y JS).|Desarrollar una sección que destaque los beneficios clave de RideFind utilizando HTML, CSS, y componentes reutilizables con diseño responsive. | 0.5                |  | Done                                   |
+ | US01 | Información sobre Nosotros           | TS03 | Sección de "Acerca de" (Desarrollado en HTML, CSS y JS).| Implementar la sección "Sobre Nosotros", mostrando información clave de la empresa con diseño responsive  | 0.5                 |    | Done                                   |
+ | US01 | Redes Sociales y Footer | TS04 | Redes Sociales y Footer (Desarrollado en HTML, CSS y JS).| Crear un footer con enlaces a redes sociales, optimizado para diferentes resoluciones de pantalla, asegurando su visibilidad en todo tipo de dispositivos.| 0.5 |  | Done
+ | US01 | Sección de contacto | TS04 | Sección de contacto (Desarrollado en HTML, CSS y JS).| Implementar una sección de contacto con un formulario básico, validación de datos, y diseño responsive para garantizar su correcto funcionamiento en móviles.| 1 |  | Done
 
  #### 5.2.1.4. Development Evidence for Sprint Review.
  
  | Repository | Branch | Commit Id | Commit <br>Message | Commit <br>Message Body | Commited <br>on (Date) |
 |:-------------:|:---------------:|:-------------:|:-------------:|:---------------:|:-------------:|
-| landing-page  | main | b67c724d45f0d781e6bb1641469472039df4fbd8 | Implementacion de la seccion principal | - | 26/04/2025 |
-| landing-page | main | a7b94cb034e8702cf93a94907a499156513275c2 | Implementacion de la seccion destinos | -- | 26/04/2025 |
-| landing-page | main | de33ade90354d7ca9156ec92f80d2747d1335edc | Implementacion de los estilos | -- | 26/04/2025 |
-| landing-page | main | de33ade90354d7ca9156ec92f80d2747d1335edc | Implementacion de las animaciones | -- | 26/04/2025 |
-| landing-page | main | 8e4d4fd | Implementacion de las animaciones | -- | 26/04/2025 |
+| landing-page  | main | b67c724d45f0d781e6bb1641469472039df4fbd8 | Implementacion de la seccion principal | No description provided | 26/04/2025 |
+| landing-page | main | a7b94cb034e8702cf93a94907a499156513275c2 | Implementacion de la seccion destinos | No description provided | 26/04/2025 |
+| landing-page | main | de33ade90354d7ca9156ec92f80d2747d1335edc | Implementacion de los estilos | No description provided | 26/04/2025 |
+| landing-page | main | de33ade90354d7ca9156ec92f80d2747d1335edc | Implementacion de las animaciones | No description provided | 26/04/2025 |
+| landing-page | main | 8e4d4fd | Implementacion de las animaciones | No description provided | 26/04/2025 |
  
 **Commits realizados al Landing Page**
 
