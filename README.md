@@ -432,7 +432,6 @@ Necesidades principales:
 
 Se construyeron mapas que detallan las etapas de experiencia de los usuarios al encontrar Oasis.
 Las etapas consideradas en este recorrido son:
-
 **Descubrimiento:** El usuario conoce la plataforma por primera vez (a través de redes sociales, buscadores o recomendaciones).
 **Exploración y evaluación:** Investiga opciones, filtra destinos, compara precios y lee reseñas.
 **Reserva:** Selecciona un lugar, realiza la reserva y recibe la confirmación.
