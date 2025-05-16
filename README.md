@@ -1186,6 +1186,7 @@ Acceso al repositorio: https://github.com/Desarrollo-Open-Source-Grupo-4/Oasis-S
  #### 5.2.2.8. Team Collaboration Insights during Sprint.
 
  #### Avance de Conclusiones, Bibliografía y Anexos.
+ Durante el Sprint 2, el equipo logró avances en el desarrollo de la primera versión funcional de la plataforma Oasis, centrada en glamping. Desde el enfoque colaborativo, el equipo reconoció mejoras en la organización de tareas y la claridad en los roles asumidos. Sin embargo, se identificó la necesidad de reforzar la comunicación diaria y la revisión de avances para evitar bloqueos técnicos o cuellos de botella.
 
 
 
