@@ -1086,7 +1086,10 @@ Para nuestro proyecto se crearon 4 repositorios los cuales son:
 implementación y despliegue de la landing page fue llevado a cabo principalmente por Juan Quijano.
 
  #### 5.2.2 Sprint 2
-  En esta sección se resumen los puntos del Sprint Planning, incluyendo los objetivos, entregables y tareas asignadas para el sprint.
+ En esta sección se registra el avance del producto y las acciones colaborativas realizadas por el equipo para el Sprint 2
+ 
+ #### 5.2.2.1. Sprint Planning 2.
+   En esta sección se resumen los puntos del Sprint Planning, incluyendo los objetivos, entregables y tareas asignadas para el sprint.
  
  | Sprint #              | Sprint 2 |
 |-----------------------|----------|
@@ -1102,8 +1105,6 @@ implementación y despliegue de la landing page fue llevado a cabo principalment
 | **Sprint 2  Goal**     | La prioridad en este sprint es la mejora del informe y la implementación de la primera versión de la aplicación front-end. Esto con la finalidad de mostrar las funcionalidades básicas y el diseño de la aplicación web a nuestros primeros usuarios. Podremos identificar puntos de mejora tras la interacción de los usuarios con esta primera versión de la aplicación web.  |
 | **Sprint 2 Velocity** | Nuestro equipo puede trabajar hasta 18 story points |  
 | **Sum of Story Points** | La suma de story points atendidos es de " " |
- 
- #### 5.2.2.1. Sprint Planning 2.
  
  #### 5.2.2.2. Aspect Leaders and Collaborators.
  Durante el Sprint 2, el equipo se enfocó en la implementación de una primera versión funcional del front-end de la plataforma web de glamping Oasis. Con el objetivo de organizar y distribuir eficientemente el trabajo, se identificaron los principales aspectos o componentes abordados en el sprint, asignando a cada uno un líder responsable de su desarrollo y colaboradores de apoyo. Esta asignación permite asegurar tanto la calidad del entregable como la colaboración efectiva entre los integrantes del equipo.
