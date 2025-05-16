@@ -1106,6 +1106,14 @@ implementación y despliegue de la landing page fue llevado a cabo principalment
  #### 5.2.2.1. Sprint Planning 2.
  
  #### 5.2.2.2. Aspect Leaders and Collaborators.
+
+ | Team Member (Last Name, First Name) | GitHub Username   | Navigation Bar Leader (L) / Collaborator (C) | Benefits Section Leader (L) / Collaborator (C) | About Us Section Leader (L) / Collaborator (C) | Social Media & Footer Leader (L) / Collaborator (C) | Contact Section Leader (L) / Collaborator (C) |
+|-------------------------------------|-------------------|----------------------------------------------|------------------------------------------------|-------------------------------------------------|------------------------------------------------------|-----------------------------------------------|
+| Daniel Elias Ruiz Huisa         | DanRuizPeru       | L                     | C                     | C                     | L                     | C                     |
+| Carlos Humberto Zarate Peña     | U202315966        | C                     | L                     | C                     | C                     | L                     |
+| Jhon Rony Huamani Aguilar       | JhonHuam          | C                     | C                     | L                     | C                     | C                     |
+| Juan Miguel Quijano Calderon    | JuanqQuijano      | C                     | C                     | C                     | L                     | C                     |
+| Poly Gabriel Alcantara Baldeon  | GabrielAlba24     | C                     | L                     | C                     | C                     | L                     |
  
  #### 5.2.2.3. Sprint Backlog 2.
 
