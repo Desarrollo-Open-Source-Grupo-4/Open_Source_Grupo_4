@@ -431,6 +431,15 @@ Necesidades principales:
 #### 2.3.3. User Journey Mapping
 
 Se construyeron mapas que detallan las etapas de experiencia de los usuarios al encontrar Oasis.
+Las etapas consideradas en este recorrido son:
+
+**Descubrimiento:** El usuario conoce la plataforma por primera vez (a través de redes sociales, buscadores o recomendaciones).
+**Exploración y evaluación:** Investiga opciones, filtra destinos, compara precios y lee reseñas.
+**Reserva:** Selecciona un lugar, realiza la reserva y recibe la confirmación.
+**Preparación y llegada:** Se prepara para el viaje, recibe instrucciones y llega al alojamiento.
+**Estancia:** Vive la experiencia de glamping.
+**Post-estancia:** Comparte su experiencia, deja una reseña y considera volver o recomendar la plataforma.
+
 ![6.](https://github.com/Desarrollo-Open-Source-Grupo-4/Open_Source_Grupo_4/blob/main/images/cap2/Customer_Journey.png?raw=true)
 
 #### 2.3.4. Empathy Mapping
