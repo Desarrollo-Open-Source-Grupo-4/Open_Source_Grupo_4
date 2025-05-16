@@ -430,14 +430,21 @@ Necesidades principales:
 
 #### 2.3.3. User Journey Mapping
 
-Se construyeron mapas que detallan las etapas de experiencia de los usuarios al encontrar Oasis.
-Las etapas consideradas en este recorrido son:
-**Descubrimiento:** El usuario conoce la plataforma por primera vez (a través de redes sociales, buscadores o recomendaciones).
-**Exploración y evaluación:** Investiga opciones, filtra destinos, compara precios y lee reseñas.
-**Reserva:** Selecciona un lugar, realiza la reserva y recibe la confirmación.
-**Preparación y llegada:** Se prepara para el viaje, recibe instrucciones y llega al alojamiento.
-**Estancia:** Vive la experiencia de glamping.
-**Post-estancia:** Comparte su experiencia, deja una reseña y considera volver o recomendar la plataforma.
+Se construyeron mapas que detallan las etapas de experiencia de los usuarios al encontrar **Oasis**, una plataforma de glamping enfocada en ofrecer destinos únicos y accesibles.
+
+Las etapas consideradas en este recorrido de usuario son:
+
+**Descubrimiento:** El usuario conoce la plataforma por primera vez, ya sea a través de redes sociales, motores de búsqueda o recomendaciones de terceros.
+
+**Exploración y evaluación:** El usuario explora las opciones disponibles dentro de la plataforma, filtrando por ubicación, precio o tipo de experiencia. Compara alternativas, revisa descripciones y lee opiniones de otros viajeros.
+
+**Reserva:** Selecciona un lugar que se ajusta a sus intereses, completa el proceso de reserva y recibe una confirmación automática con todos los detalles necesarios.
+
+**Preparación y llegada:** Se organiza para el viaje, revisa indicaciones proporcionadas por el anfitrión o la plataforma y se traslada al lugar reservado.
+
+**Estancia:** Disfruta de la experiencia de glamping en el destino elegido. Este es el momento central del recorrido, donde se evalúa la calidad del alojamiento y del entorno.
+
+**Post-estancia:** Al finalizar la experiencia, el usuario tiene la opción de dejar una reseña, compartir su vivencia con otros potenciales viajeros y considerar repetir la experiencia o recomendar Oasis a su red.
 
 ![6.](https://github.com/Desarrollo-Open-Source-Grupo-4/Open_Source_Grupo_4/blob/main/images/cap2/Customer_Journey.png?raw=true)
 
