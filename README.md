@@ -1101,6 +1101,44 @@ Para nuestro proyecto se crearon 4 repositorios los cuales son:
  Para este sprint, las tareas de diseño, implementación y documentación de la landing page se distribuyó entre los integrantes del equipo. La
 implementación y despliegue de la landing page fue llevado a cabo principalmente por Juan Quijano.
 
+ #### 5.2.2 Sprint 2
+  En esta sección se resumen los puntos del Sprint Planning, incluyendo los objetivos, entregables y tareas asignadas para el sprint.
+ 
+ | Sprint #              | Sprint 2 |
+|-----------------------|----------|
+| **Sprint Planning Background** |          |
+| **Date**              | 15/05/2025 |
+| **Time**              | 20:00 horas (GMT-5) |
+| **Location**          | Virtual (Google Meet) |
+| **Prepared By**       | Jhon Rony Huamani Aguilar |
+| **Attendees (to planning meeting)** | Daniel Elias Ruiz Huisa, Carlos Humberto Zarate Peña, Jhon Rony Huamani Aguilar, Poly Gabriel Alcantara Baldeon    |
+| **Sprint 2 - 1 Review Summary** | Se ha actualizado algunos elementos con respecto al reporte en base al feedback brindado por el docente, además de crear una primera versión Front End de nuestra aplicación web, el cual se seguirá desarrollando en futuras entregas. |
+| **Sprint 2 - 1 Retrospective Summary** | Hubo un progreso relativamente bueno con el sprint 2; no se llegaron a completar todas las tareas en su totalidad como se tenía esperado. El equipo reconoce la falta de comunicación y se tomaran acciones con anticipación en las próximas entregas. |
+| **Sprint Goal & User Stories** | Permitir a los usuarios visualizar alojamientos de glamping según sus preferencias básicas (ubicación, precio, tipo de alojamiento), con una interfaz funcional de búsqueda y vista previa de resultados.  |
+| **Sprint 2  Goal**     | La prioridad en este sprint es la mejora del informe y la implementación de la primera versión de la aplicación front-end. Esto con la finalidad de mostrar las funcionalidades básicas y el diseño de la aplicación web a nuestros primeros usuarios. Podremos identificar puntos de mejora tras la interacción de los usuarios con esta primera versión de la aplicación web.  |
+| **Sprint 2 Velocity** | Nuestro equipo puede trabajar hasta 18 story points |  
+| **Sum of Story Points** | La suma de story points atendidos es de " " |
+ 
+ #### 5.2.2.1. Sprint Planning 2.
+ 
+ #### 5.2.2.2. Aspect Leaders and Collaborators.
+ 
+ #### 5.2.2.3. Sprint Backlog 2.
+
+ #### 5.2.2.4. Development Evidence for Sprint Review.
+ 
+ #### 5.2.2.5. Execution Evidence for Sprint Review.
+
+ #### 5.2.2.6. Services Documentation Evidence for Sprint Review.
+
+ #### 5.2.2.7. Software Deployment Evidence for Sprint Review.
+
+ #### 5.2.2.8. Team Collaboration Insights during Sprint.
+
+ #### Avance de Conclusiones, Bibliografía y Anexos.
+
+
+
 
 
 
