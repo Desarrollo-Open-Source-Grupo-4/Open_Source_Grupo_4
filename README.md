@@ -1121,6 +1121,8 @@ implementación y despliegue de la landing page fue llevado a cabo principalment
 
  Esta sección presenta un resumen estructurado del Sprint 2, cuyo objetivo principal fue avanzar en la construcción de una versión inicial funcional del Front-End de la aplicación web, centrada en permitir a los usuarios visualizar alojamientos de glamping según filtros básicos como ubicación, precio y tipo de experiencia.
 Se detallan a continuación las metas propuestas para este sprint, las funcionalidades clave a implementar y la distribución de tareas asignadas al equipo. Además, se incluye un screenshot del tablero Trello utilizado como herramienta de gestión y control del trabajo, junto con el enlace público para su consulta.
+Este es el link de invitacion a nuestro trello: https://trello.com/invite/b/6826efd999f9b10cfcad7a8c/ATTI9372e13170f62c39e7c4d6e33d215b5aBF230016/1asi0729-2510-4328-grupo-4 
+![Captura de pantalla 2025-05-16 043419](https://github.com/user-attachments/assets/c098e2a2-e3b8-4abc-8890-1cbff2dd5d2d)
 
 
 | **Sprint #** | **Sprint 2** |
