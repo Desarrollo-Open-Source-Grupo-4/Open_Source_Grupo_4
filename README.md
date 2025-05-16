@@ -71,7 +71,8 @@
       - [3.1. To-Be Scenario Mapping](#31-to-be-scenario-mapping)
       - [3.2. User Stories.](#32-user-stories)
       - [3.3. Impact Mapping.](#33-impact-mapping)
-  - [Ubiquitous Language](#ubiquitous-language)
+    - [3.4. Product Backlog](#34-product-backlog)
+    - [3.5 Ubiquitous Language](#35-ubiquitous-language)
 - [Capítulo IV: Product Design](#capítulo-iv-product-design)
   - [4.1. Style Guidelines](#41-style-guidelines)
     - [4.1.1. General Style Guidelines](#411-general-style-guidelines)
@@ -115,7 +116,6 @@
       - [5.2.1.4. Development Evidence for Sprint Review.](#5214-development-evidence-for-sprint-review)
       - [5.2.1.5. Execution Evidence for Sprint Review.](#5215-execution-evidence-for-sprint-review)
       - [5.2.1.6. Services Documentation Evidence for Sprint Review.](#5216-services-documentation-evidence-for-sprint-review)
-  - [User Stories relacionadas a Servicios](#user-stories-relacionadas-a-servicios)
       - [5.2.1.7. Software Deployment Evidence for Sprint Review.](#5217-software-deployment-evidence-for-sprint-review)
       - [5.2.1.8. Team Collaboration Insights during Sprint.](#5218-team-collaboration-insights-during-sprint)
 
@@ -580,8 +580,33 @@ To-Be Scenario Mapping para usuario emprendedor que brinda servicios de hospedaj
 
 
 ---
+### 3.4. Product Backlog
 
-##  Ubiquitous Language
+
+| Orden | User Story ID | Título                                   | Descripción                                                                                                                        | Story Points |
+|-------|----------------|-------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------|--------------|
+| 1     | US01           | Registro de cuenta de usuario             | Como nuevo usuario no registrado, quiero poder crear una cuenta en la plataforma Oasis para acceder a sus funcionalidades.        | 1            |
+| 2     | US02           | Iniciar sesión                            | Como usuario registrado, quiero iniciar sesión en Oasis para acceder a mi perfil y mis reservas.                                  | 1            |
+| 3     | US03           | Buscar alojamientos glamping              | Como usuario huésped, quiero poder buscar alojamientos glamping por ubicación, precio y disponibilidad.                          | 1            |
+| 4     | US04           | Reservar alojamiento                      | Como usuario huésped, quiero poder reservar un alojamiento glamping disponible para asegurar mi estadía.                          | 1            |
+| 5     | US05           | Publicar alojamiento                      | Como usuario anfitrión, quiero poder publicar un alojamiento glamping para ofrecerlo a los usuarios huéspedes.                    | 1            |
+| 6     | US05           | Visualizar catálogo de servicios          | Como usuario turista, quiero visualizar un catálogo de servicios ofrecidos por emprendedores rurales.                             | 1            |
+| 7     | US06           | Reservar servicio turístico               | Como usuario turista, quiero poder reservar un servicio ofrecido por un emprendedor rural.                                        | 1            |
+| 8     | US07           | Ver historial de reservas de servicios    | Como usuario turista, quiero visualizar el historial de mis reservas de servicios.                                                | 1            |
+| 9     | US08           | Calificar servicio recibido               | Como usuario turista, quiero calificar el servicio recibido por el emprendedor rural.                                             | 1            |
+| 10    | US09           | Registrar nuevo servicio turístico        | Como emprendedor rural del segmento 2, quiero registrar un nuevo servicio para ofrecerlo a través de la plataforma.              | 1            |
+| 11    | US10           | Editar servicio publicado                 | Como emprendedor rural del segmento 2, quiero editar la información de un servicio ya publicado.                                 | 1            |
+| 12    | US11           | Pausar disponibilidad de servicio         | Como emprendedor rural del segmento 2, quiero pausar temporalmente la disponibilidad de un servicio.                             | 1            |
+| 13    | US12           | Eliminar servicio turístico               | Como emprendedor rural del segmento 2, quiero eliminar un servicio turístico que ya no pienso ofrecer.                            | 1            |
+| 14    | US13           | Visualizar historial de reservas recibidas| Como emprendedor rural del segmento 2, quiero ver un historial de todas las reservas recibidas.                                   | 1            |
+| 15    | US14           | Agregar cuenta bancaria para pagos        | Como emprendedor rural del segmento 2, quiero registrar mi cuenta bancaria para recibir los pagos.                               | 1            |
+| 16    | US15           | Consultar historial de pagos recibidos    | Como emprendedor rural del segmento 2, quiero consultar un historial de los pagos recibidos.                                     | 1            |
+| 17    | US16           | Recibir notificaciones de nuevos pagos    | Como emprendedor rural del segmento 2, quiero recibir notificaciones cuando se procese un nuevo pago.                            | 1            |
+
+
+---
+
+### 3.5 Ubiquitous Language
 
 En el contexto del desarrollo del proyecto **Oasis**, hemos definido un lenguaje ubicuo compartido por el equipo técnico y no técnico, para asegurar una comprensión clara y coherente del dominio. A continuación, se detallan los principales términos y sus definiciones:
 
@@ -1015,13 +1040,12 @@ Explicaremos cómo realizar el despliegue de nuestra Landing Page utilizando el 
 | **User Story** | **Work-Item / Task** |
 |--------------|--------------|
 
-| **Id**        | **Title**                                | **Id**  | **Title**                     | **Description**                                                    | **Estimation (Hours)** | **Assigned To**                    | **Status** |
-|--------------|------------------------------------------|---------|-------------------------------|--------------------------------------------------------------------|------------------------|-----------------------------------|------------|
- | US01 | Barra de navegación en la Landing Page | TS01 |Barra de navegación en la Landing Page (Desarrollado en HTML, CSS y JS).| Implementación del header y la barra de navegación, desarrollados en HTML, CSS y JS con diseño responsive. | 8      |  | Done     |
- | US01 | 	Sección de beneficios de la Aplicación   | TS02 | Sección de beneficios (Desarrollado en HTML, CSS y JS).|Desarrollar una sección que destaque los beneficios clave de RideFind utilizando HTML, CSS, y componentes reutilizables con diseño responsive. | 6                |  | Done                                   |
- | US01 | Información sobre Nosotros           | TS03 | Sección de "Acerca de" (Desarrollado en HTML, CSS y JS).| Implementar la sección "Sobre Nosotros", mostrando información clave de la empresa con diseño responsive  | 4                 |    | Done                                   |
- | US01 | Redes Sociales y Footer | TS04 | Redes Sociales y Footer (Desarrollado en HTML, CSS y JS).| Crear un footer con enlaces a redes sociales, optimizado para diferentes resoluciones de pantalla, asegurando su visibilidad en todo tipo de dispositivos.| 4 |  | Done
- | US01 | Sección de contacto | TS04 | Sección de contacto (Desarrollado en HTML, CSS y JS).| Implementar una sección de contacto con un formulario básico, validación de datos, y diseño responsive para garantizar su correcto funcionamiento en móviles.| 4 |  | Done
+| ID Historia | Título Historia                | ID Tarea | Título Tarea                         | Descripción                                                                                                                                                             | Estimación (horas) | Asignado a     | Estado  | Relacionado con (Epic ID) |
+|-------------|--------------------------------|----------|--------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------|----------------|---------|-----------------------------|
+| US01        | Registro de cuenta de usuario  | UT01     | Formulario de registro de usuario    | Implementar formulario de registro con validaciones y conexión al backend para creación de cuenta.                                                                      | 4                  | [Por asignar]  | Done  | EP01                        |
+| US02        | Iniciar sesión                 | UT02     | Formulario de inicio de sesión       | Implementar formulario de login, validación de credenciales y acceso a cuenta.                                                                                          | 3                  | [Por asignar]  | Done  | EP01                        |
+| US03        | Buscar alojamientos glamping   | UT03     | Filtros de búsqueda para alojamientos| Implementar interfaz y lógica de búsqueda con filtros por ubicación, precio y disponibilidad, y visualización de resultados.                                           | 5                  | [Por asignar]  | Done  | EP02                        |
+| US05        | Visualizar catálogo de servicios| UT04     | Vista de catálogo de experiencias    | Implementar vista que muestre servicios/experiencias rurales disponibles, organizados por ubicación, tipo y precio.                                                     | 4                  | [Por asignar]  | Done  | EP02                        |
 
  #### 5.2.1.4. Development Evidence for Sprint Review.
  
@@ -1056,15 +1080,7 @@ Resumen de lo alcanzado en el Sprint 1
     ![landing3.](https://github.com/Desarrollo-Open-Source-Grupo-4/Open_Source_Grupo_4/blob/main/images/cap5/landing3.png?raw=true)
 
  #### 5.2.1.6. Services Documentation Evidence for Sprint Review.
- ## User Stories relacionadas a Servicios
-
-| Story ID | Título | Criterios de Aceptación |
-|:--------:|:------:|:------------------------|
-| US08 | Registro Anfitriones | **Escenario 1:**<br>**Given** que soy una emprendedora rural sin conocimientos técnicos,<br>**When** ingreso a la sección "Convertirse en anfitrión",<br>**Then** puedo completar un formulario simple con ayuda visual y tutoriales.<br><br>**Escenario 2:**<br>**Given** que quiero registrar mi terreno,<br>**When** solicito soporte técnico,<br>**Then** recibo asistencia remota paso a paso para completar el proceso de registro. |
-| US10 | Notificaciones a Anfitriones | **Escenario 1:**<br>**Given** que soy un anfitrión recién registrado,<br>**When** recibo una reserva,<br>**Then** me llega una notificación clara al correo y/o aplicación móvil.<br><br>**Escenario 2:**<br>**Given** que tengo una próxima visita,<br>**When** falta menos de 24 horas,<br>**Then** recibo un recordatorio con los datos del viajero y recomendaciones para la recepción. |
-| US12 | Acceso a Comentarios | **Escenario 1:**<br>**Given** que soy un anfitrión con reservas anteriores,<br>**When** accedo a la sección de retroalimentación,<br>**Then** puedo ver todos los comentarios recibidos, su fecha y el nombre del huésped.<br><br>**Escenario 2:**<br>**Given** que soy anfitrión y recibí una nueva reseña,<br>**When** ingreso a la reseña específica,<br>**Then** puedo escribir una respuesta visible públicamente para el huésped y otros usuarios. |
-| US13 | Comunidad de Anfitriones | **Escenario 1:**<br>**Given** que soy anfitrión registrado en la plataforma,<br>**When** accedo a la sección de comunidad,<br>**Then** puedo ver publicaciones de otros anfitriones, comentar y compartir consejos.<br><br>**Escenario 2:**<br>**Given** que quiero aprender de otros,<br>**When** sigo a anfitriones destacados,<br>**Then** sus publicaciones aparecen prioritariamente en mi feed. |
-
+ Para esta primera entrega no hubo implementación de APIs, pues solo se realizó la Landing Page.
 
  #### 5.2.1.7. Software Deployment Evidence for Sprint Review.
  **Design**
